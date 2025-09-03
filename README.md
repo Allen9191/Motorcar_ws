@@ -13,6 +13,8 @@ output: RS485 signal
 At aarch64 snap version:
 >[Chromium, other browsers not working after flashing or updating](https://forums.developer.nvidia.com/t/chromium-other-browsers-not-working-after-flashing-or-updating-heres-why-and-quick-fix/338891)
 
+sudo apt-get install chromium-browser
+
 Joysitck Driver:
 >[Jetpack 6 Joystick Detection Issue on Nvidia Jetson Orin Nano Dev Board](https://nvidia-jetson.piveral.com/jetson-orin-nano/jetpack-6-joystick-detection-issue-on-nvidia-jetson-orin-nano-dev-board/)
 
