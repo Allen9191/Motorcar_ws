@@ -1,0 +1,18 @@
+<package format="3">
+  <name>motorcar_bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup for NAV + joystick + motor</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>BSD-3-Clause</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- 引用/包含的套件 -->
+  <exec_depend>nav_sim</exec_depend>
+  <exec_depend>zlac8015d_serial</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>joy_control</exec_depend>
+</package>

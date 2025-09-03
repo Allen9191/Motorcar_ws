@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

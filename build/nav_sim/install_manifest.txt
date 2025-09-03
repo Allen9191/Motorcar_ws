@@ -1,0 +1,16 @@
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/nav_sim/NAV_cmd
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/package_run_dependencies/nav_sim
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/parent_prefix_path/nav_sim
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.sh
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.dsv
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/path.sh
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/path.dsv
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.bash
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.sh
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.zsh
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.dsv
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.dsv
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/packages/nav_sim
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig.cmake
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig-version.cmake
+/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.xml

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzlac8015d.a CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o
+/usr/bin/ranlib libzlac8015d.a

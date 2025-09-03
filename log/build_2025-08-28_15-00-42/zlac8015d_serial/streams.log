@@ -1,0 +1,45 @@
+[0.026s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[0.124s] [ 27%] Built target example
+[0.124s] [ 45%] Built target zlac8015d
+[0.127s] [ 72%] Built target SimpleControl
+[0.135s] [ 81%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[22.374s] [ 90%] [32m[1mLinking CXX executable Motorctl[0m
+[23.534s] [100%] Built target Motorctl
+[23.591s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[23.596s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial
+[23.613s] -- Install configuration: ""
+[23.614s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.sh
+[23.614s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.dsv
+[23.614s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/include/include
+[23.615s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/include/include/Motorctl.h
+[23.615s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/include/include/zlac8015d.h
+[23.615s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/include/include/Comm
+[23.615s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/include/include/Comm/crc_check.h
+[23.616s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/zlac8015d_serial/example
+[23.616s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/zlac8015d_serial/SimpleControl
+[23.616s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/zlac8015d_serial/Motorctl
+[23.630s] -- Set runtime path of "/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/zlac8015d_serial/Motorctl" to ""
+[23.631s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch
+[23.631s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch/serial_test.launch.py
+[23.631s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch/joyCH_motor.launch.py
+[23.632s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/libzlac8015d.a
+[23.632s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/ament_index/resource_index/package_run_dependencies/zlac8015d_serial
+[23.632s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/ament_index/resource_index/parent_prefix_path/zlac8015d_serial
+[23.632s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.sh
+[23.633s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.dsv
+[23.633s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.sh
+[23.633s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.dsv
+[23.633s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.bash
+[23.633s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.sh
+[23.634s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.zsh
+[23.634s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.dsv
+[23.634s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.dsv
+[23.634s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/ament_index/resource_index/packages/zlac8015d_serial
+[23.634s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport.cmake
+[23.635s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport-noconfig.cmake
+[23.636s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/ament_cmake_export_targets-extras.cmake
+[23.638s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig.cmake
+[23.639s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig-version.cmake
+[23.639s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.xml
+[23.640s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial

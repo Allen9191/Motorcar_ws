@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<robot name="Motorcar" xmlns:xacro="http://ros.org/wiki/xacro">
+  <!-- 基底 -->
+  <link name="base_footprint"/>
+
+  <link name="base_link"/>
+  <joint name="footprint_to_base" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.085" rpy="0 0 0"/>
+  </joint>
+
+
+  <!-- Wheel -->
+  <link name="fl_wheel"/>
+  <joint name="base_to_Wfl" type="fixed">
+    <parent link="base_link"/>
+    <child  link="fl_wheel"/>
+    <origin xyz="0.2125 0.22 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="fr_wheel"/>
+  <joint name="base_to_Wfr" type="fixed">
+    <parent link="base_link"/>
+    <child  link="fr_wheel"/>
+    <origin xyz="0.2125 -0.22 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="rl_wheel"/>
+  <joint name="base_to_Wrl" type="fixed">
+    <parent link="base_link"/>
+    <child  link="rl_wheel"/>
+    <origin xyz="-0.2125 0.22 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="rr_wheel"/>
+  <joint name="base_to_Wrr" type="fixed">
+    <parent link="base_link"/>
+    <child  link="rr_wheel"/>
+    <origin xyz="-0.2125 -0.22 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  
+  <!-- IMU -->
+  <link name="imu_link"/>
+  <joint name="base_to_imu" type="fixed">
+    <parent link="base_link"/>
+    <child  link="imu_link"/>
+    <!-- 依實機安裝填 xyz/rpy（公尺、弧度） -->
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- Camera base-->
+  <link name="camera_base"/>
+  <joint name="base_to_camerabase" type="fixed">
+    <parent link="base_link"/>
+    <child  link="camera_base"/>
+    <origin xyz="0 0 0.115" rpy="0 0 0"/>
+  </joint>
+  <!-- Camera -->
+  <!-- 相機本體座標 -->
+  <link name="F_camera"/>
+  <joint name="base_to_FC" type="fixed">
+    <parent link="camera_base"/>
+    <child  link="F_camera"/>
+    <origin xyz="0.332 0.0 0.30" rpy="0 0 0"/>
+  </joint>
+
+  <!-- optical frame（影像幾何常用；REP 105：x右 y下 z前） -->
+  <link name="FC_optical_frame"/>
+  <joint name="FC_to_FCoptical" type="fixed">
+    <parent link="F_camera"/>
+    <child  link="FC_optical_frame"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <link name="FL_camera"/>
+  <joint name="base_to_FLC" type="fixed">
+    <parent link="camera_base"/>
+    <child  link="FL_camera"/>
+    <origin xyz="0.1475 -0.2625 0.0" rpy="0 0 0"/>
+  </joint>
+  <link name="FLC_optical_frame"/>
+  <joint name="FLC_to_FLCoptical" type="fixed">
+    <parent link="FL_camera"/>
+    <child  link="FLC_optical_frame"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <link name="FR_camera"/>
+  <joint name="base_to_FRC" type="fixed">
+    <parent link="camera_base"/>
+    <child  link="FR_camera"/>
+    <origin xyz="0.091 0.2625 0.10" rpy="0 0 0"/>
+  </joint>
+  <link name="FRC_optical_frame"/>
+  <joint name="FRC_to_FRCoptical" type="fixed">
+    <parent link="FR_camera"/>
+    <child  link="FRC_optical_frame"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <link name="R_camera"/>
+  <joint name="base_to_RC" type="fixed">
+    <parent link="camera_base"/>
+    <child  link="R_camera"/>
+    <origin xyz="-0.2175 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+  <link name="RC_optical_frame"/>
+  <joint name="RC_to_RCoptical" type="fixed">
+    <parent link="R_camera"/>
+    <child  link="RC_optical_frame"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+
+  <!-- Bumb Base -->
+  <link name="fornt_bump_base"/>
+  <joint name="base_to_frontbump" type="fixed">
+    <parent link="base_link"/>
+    <child  link="fornt_bump_base"/>
+    <origin xyz="0.3325 0.0 -0.005" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="rear_bump_base"/>
+  <joint name="base_to_rearbump" type="fixed">
+    <parent link="base_link"/>
+    <child  link="rear_bump_base"/>
+    <origin xyz="-0.2175 0.0 -0.005" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- IR Sensors -->
+  <link name="F_IRS"/>
+  <joint name="base_to_FIRS" type="fixed">
+    <parent link="fornt_bump_base"/>
+    <child  link="F_IRS"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="RC_IRS"/>
+  <joint name="base_to_RCIRS" type="fixed">
+    <parent link="rear_bump_base"/>
+    <child  link="RC_IRS"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="RL_IRS"/>
+  <joint name="base_to_RLIRS" type="fixed">
+    <parent link="rear_bump_base"/>
+    <child  link="RL_IRS"/>
+    <origin xyz="0 0.120 0" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="RR_IRS"/>
+  <joint name="base_to_RRIRS" type="fixed">
+    <parent link="rear_bump_base"/>
+    <child  link="RR_IRS"/>
+    <origin xyz="0 -0.120 0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- Ultrasound Sensors -->
+  <link name="FL_ULS"/>
+  <joint name="base_to_FLULS" type="fixed">
+    <parent link="fornt_bump_base"/>
+    <child  link="FL_ULS"/>
+    <origin xyz="0 0.1825 0" rpy="0 -0.349 0"/>
+  </joint>
+  
+  <link name="FR_ULS"/>
+  <joint name="base_to_FRULS" type="fixed">
+    <parent link="fornt_bump_base"/>
+    <child  link="FR_ULS"/>
+    <origin xyz="0 -0.1825 0" rpy="0 -0.349 0"/>
+  </joint>
+</robot>

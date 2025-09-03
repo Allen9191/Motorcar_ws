@@ -1,0 +1,4 @@
+source;share/motorcar_bringup/local_setup.bash
+source;share/motorcar_bringup/local_setup.dsv
+source;share/motorcar_bringup/local_setup.sh
+source;share/motorcar_bringup/local_setup.zsh

@@ -1,0 +1,8 @@
+gmake[2]: Warning: File '/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/include/Motorctl.h' has modification time 23241 s in the future
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:110:38:[m[K [01;31m[Kerror: [m[K‘[01m[KW[m[K’ was not declared in this scope
+  110 |         rpm_left  = to_rpm*(j_V_set-([01;31m[KW[m[K/2)*j_yawrate_set);
+      |                                      [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/Motorctl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

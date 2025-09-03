@@ -1,0 +1,454 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa4ef7c10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa4ef72e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa4ef72e0>>, mixin_verb=('build',))
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.408s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/Motorcar-NEW_ws'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_ZLAC8015D_serial) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS2_ZLAC8015D_serial' with type 'ros.ament_cmake' and name 'zlac8015d_serial'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ros'
+[0.434s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_description' with type 'ros.ament_cmake' and name 'amr_description'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.catkin' and name 'motorcar_bringup'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_control) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_control' with type 'ros.ament_cmake' and name 'joy_control'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_joy) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_joy' with type 'ros.ament_python' and name 'keyboard_joy'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_sim) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_sim' with type 'ros.ament_cmake' and name 'nav_sim'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nvidia/piek-src/install
+[0.503s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.557s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'serial' is in: /home/nvidia/piek-src/install/serial
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding serial
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/amr_description', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/amr_description', 'symlink_install': False, 'test_result_base': None}
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_target' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'keyboard_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/keyboard_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/keyboard_joy', 'symlink_install': False, 'test_result_base': None}
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_target' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'nav_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.560s] DEBUG:colcon.colcon_core.verb:Building package 'nav_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/nav_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/nav_sim', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/nav_sim', 'symlink_install': False, 'test_result_base': None}
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/serial', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/serial-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'joy_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'joy_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/joy_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/joy_control', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/joy_control', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'zlac8015d_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'motorcar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'motorcar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Motorcar-NEW_ws/build/motorcar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Motorcar-NEW_ws/install/motorcar_bringup', 'merge_install': False, 'path': '/home/nvidia/Motorcar-NEW_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.563s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/serial-ros2' with build type 'ament_cmake'
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/Motorcar-NEW_ws/src/serial-ros2'
+[0.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.574s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/keyboard_joy' with build type 'ament_python'
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_joy', 'ament_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/ament_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/ament_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/ament_prefix_path.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/nav_sim' with build type 'ament_cmake'
+[0.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/Motorcar-NEW_ws/src/nav_sim'
+[0.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/amr_description' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/Motorcar-NEW_ws/src/amr_description'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/serial -- -j12 -l12
+[1.022s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Motorcar-NEW_ws/src/keyboard_joy'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/nav_sim -- -j12 -l12
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/amr_description -- -j12 -l12
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/serial -- -j12 -l12
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/serial
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/serial
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial' for CMake module files
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial' for CMake config files
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/bin'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib/python3.10/site-packages'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.zsh'
+[1.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/serial/share/colcon-core/packages/serial)
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial' for CMake module files
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial' for CMake config files
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/bin'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/lib/python3.10/site-packages'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/serial/bin'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.sh'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.bash'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/serial/share/serial/package.zsh'
+[1.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/serial/share/colcon-core/packages/serial)
+[1.114s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/joy_control' with build type 'ament_cmake'
+[1.114s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/Motorcar-NEW_ws/src/joy_control'
+[1.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/amr_description -- -j12 -l12
+[1.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/amr_description
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/joy_control -- -j12 -l12
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description' for CMake module files
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/amr_description
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description' for CMake config files
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/bin'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/lib/pkgconfig/amr_description.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/lib/python3.10/site-packages'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.sh'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.bash'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.zsh'
+[1.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/colcon-core/packages/amr_description)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/bin'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/lib/pkgconfig/amr_description.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/lib/python3.10/site-packages'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/amr_description/bin'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.bash'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/amr_description/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/amr_description/share/colcon-core/packages/amr_description)
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/nav_sim -- -j12 -l12
+[1.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/nav_sim
+[1.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_sim)
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim' for CMake module files
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/nav_sim
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim' for CMake config files
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_sim', 'cmake_prefix_path')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/bin'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/pkgconfig/nav_sim.pc'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/python3.10/site-packages'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/bin'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.ps1'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.bash'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/colcon-core/packages/nav_sim)
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_sim)
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim' for CMake module files
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim' for CMake config files
+[1.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_sim', 'cmake_prefix_path')
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/hook/cmake_prefix_path.sh'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/bin'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/pkgconfig/nav_sim.pc'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/python3.10/site-packages'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/bin'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.sh'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.bash'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/colcon-core/packages/nav_sim)
+[1.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/joy_control -- -j12 -l12
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/joy_control
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_control)
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control' for CMake module files
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/joy_control
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control' for CMake config files
+[1.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_control', 'cmake_prefix_path')
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/bin'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/pkgconfig/joy_control.pc'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/python3.10/site-packages'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/bin'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.bash'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.zsh'
+[1.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/colcon-core/packages/joy_control)
+[1.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_control)
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control' for CMake module files
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control' for CMake config files
+[1.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_control', 'cmake_prefix_path')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/hook/cmake_prefix_path.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/bin'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/pkgconfig/joy_control.pc'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/python3.10/site-packages'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/joy_control/bin'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.sh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.bash'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.zsh'
+[1.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/joy_control/share/colcon-core/packages/joy_control)
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/src/keyboard_joy': PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_joy build --build-base /home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/build install --record /home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/install.log --single-version-externally-managed install_data
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy' for CMake module files
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/src/keyboard_joy' returned '0': PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_joy build --build-base /home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/build install --record /home/nvidia/Motorcar-NEW_ws/build/keyboard_joy/install.log --single-version-externally-managed install_data
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy' for CMake config files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/bin'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/pkgconfig/keyboard_joy.pc'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages'
+[2.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_joy', 'pythonpath')
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/pythonpath.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/pythonpath.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/hook/pythonpath.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_joy)
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/package.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/package.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/package.sh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/package.bash'
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/keyboard_joy/package.zsh'
+[2.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/share/colcon-core/packages/keyboard_joy)
+[2.082s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial' with build type 'ament_cmake'
+[2.082s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial'
+[2.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[13.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[13.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zlac8015d_serial)
+[13.831s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial' for CMake module files
+[13.833s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial' for CMake config files
+[13.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('zlac8015d_serial', 'cmake_prefix_path')
+[13.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/hook/cmake_prefix_path.ps1'
+[13.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/hook/cmake_prefix_path.dsv'
+[13.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/hook/cmake_prefix_path.sh'
+[13.840s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib'
+[13.841s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/bin'
+[13.841s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/pkgconfig/zlac8015d_serial.pc'
+[13.842s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/lib/python3.10/site-packages'
+[13.842s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/bin'
+[13.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.ps1'
+[13.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.dsv'
+[13.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.sh'
+[13.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.bash'
+[13.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.zsh'
+[13.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Motorcar-NEW_ws/install/zlac8015d_serial/share/colcon-core/packages/zlac8015d_serial)
+[13.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[13.865s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.890s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.939s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Motorcar-NEW_ws/install/local_setup.ps1'
+[13.944s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/Motorcar-NEW_ws/install/_local_setup_util_ps1.py'
+[13.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Motorcar-NEW_ws/install/setup.ps1'
+[13.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Motorcar-NEW_ws/install/local_setup.sh'
+[13.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/Motorcar-NEW_ws/install/_local_setup_util_sh.py'
+[13.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Motorcar-NEW_ws/install/setup.sh'
+[13.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Motorcar-NEW_ws/install/local_setup.bash'
+[13.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Motorcar-NEW_ws/install/setup.bash'
+[13.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Motorcar-NEW_ws/install/local_setup.zsh'
+[13.971s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Motorcar-NEW_ws/install/setup.zsh'

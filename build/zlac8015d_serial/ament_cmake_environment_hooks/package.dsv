@@ -1,0 +1,4 @@
+source;share/zlac8015d_serial/local_setup.bash
+source;share/zlac8015d_serial/local_setup.dsv
+source;share/zlac8015d_serial/local_setup.sh
+source;share/zlac8015d_serial/local_setup.zsh

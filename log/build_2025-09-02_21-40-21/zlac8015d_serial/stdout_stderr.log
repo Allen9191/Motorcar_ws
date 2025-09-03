@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[ 14%] Built target zlac8015d
+[ 35%] Built target example
+[ 57%] Built target SimpleControl
+[ 71%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpm_left[m[K’ was not declared in this scope
+   61 |     [01;31m[Krpm_left[m[K = motorF_.get_rpm();
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpm_right[m[K’ was not declared in this scope; did you mean ‘[01m[Kradpsec_right[m[K’?
+   62 |     [01;31m[Krpm_right[m[K = motorR_.get_rpm();
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kradpsec_right[m[K
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kencoder_left[m[K’ was not declared in this scope
+   64 |     [01;31m[Kencoder_left[m[K = motorF_.get_position();
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kencoder_right[m[K’ was not declared in this scope
+   65 |     [01;31m[Kencoder_right[m[K= motorR_.get_position();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 78%] [32m[1mLinking CXX executable Motorctl[0m
+[ 85%] Built target Motorctl
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/joy_control -- -j12 -l12
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_control.dir/src/Modectl.cpp.o[0m
+[15.265s] [100%] [32m[1mLinking CXX executable joy_control[0m
+[15.995s] [100%] Built target joy_control
+[16.017s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/joy_control -- -j12 -l12
+[16.022s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/joy_control
+[16.039s] -- Install configuration: ""
+[16.039s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/joy_control/joy_control
+[16.049s] -- Set runtime path of "/home/nvidia/Motorcar-NEW_ws/install/joy_control/lib/joy_control/joy_control" to ""
+[16.049s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/ament_index/resource_index/package_run_dependencies/joy_control
+[16.050s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/ament_index/resource_index/parent_prefix_path/joy_control
+[16.050s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/environment/ament_prefix_path.sh
+[16.050s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/environment/ament_prefix_path.dsv
+[16.051s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/environment/path.sh
+[16.051s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/environment/path.dsv
+[16.051s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/local_setup.bash
+[16.051s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/local_setup.sh
+[16.051s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/local_setup.zsh
+[16.052s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/local_setup.dsv
+[16.052s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.dsv
+[16.052s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/ament_index/resource_index/packages/joy_control
+[16.052s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/cmake/joy_controlConfig.cmake
+[16.053s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/cmake/joy_controlConfig-version.cmake
+[16.053s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/joy_control/share/joy_control/package.xml
+[16.056s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/joy_control' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/joy_control

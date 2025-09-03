@@ -1,0 +1,10 @@
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/uninstall.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/nav_sim_uninstall.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/NAV_cmd.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/test.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/edit_cache.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/rebuild_cache.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/list_install_components.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/install.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/install/local.dir
+/home/nvidia/Motorcar-NEW_ws/build/nav_sim/CMakeFiles/install/strip.dir

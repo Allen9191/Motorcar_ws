@@ -1,0 +1,18 @@
+[0.027s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target zlac8015d[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target SimpleControl[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[0.123s] gmake[2]: Warning: File '/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/include/Motorctl.h' has modification time 23241 s in the future
+[0.127s] [ 18%] Built target zlac8015d
+[0.128s] [ 45%] Built target example
+[0.138s] [ 54%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[0.139s] [ 81%] Built target SimpleControl
+[4.191s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[4.191s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:110:38:[m[K [01;31m[Kerror: [m[K‘[01m[KW[m[K’ was not declared in this scope
+[4.191s]   110 |         rpm_left  = to_rpm*(j_V_set-([01;31m[KW[m[K/2)*j_yawrate_set);
+[4.191s]       |                                      [01;31m[K^[m[K
+[11.219s] gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+[11.219s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/Motorctl.dir/all] Error 2
+[11.219s] gmake: *** [Makefile:146: all] Error 2
+[11.227s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12

@@ -1,0 +1,29 @@
+[0.028s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[0.119s] [ 14%] Built target zlac8015d
+[0.120s] [ 35%] Built target example
+[0.126s] [ 57%] Built target SimpleControl
+[0.135s] [ 71%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[0.135s] [ 71%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[4.308s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[4.308s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpm_left[m[K’ was not declared in this scope
+[4.308s]    61 |     [01;31m[Krpm_left[m[K = motorF_.get_rpm();
+[4.308s]       |     [01;31m[K^~~~~~~~[m[K
+[4.319s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpm_right[m[K’ was not declared in this scope; did you mean ‘[01m[Kradpsec_right[m[K’?
+[4.319s]    62 |     [01;31m[Krpm_right[m[K = motorR_.get_rpm();
+[4.319s]       |     [01;31m[K^~~~~~~~~[m[K
+[4.319s]       |     [32m[Kradpsec_right[m[K
+[4.331s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kencoder_left[m[K’ was not declared in this scope
+[4.331s]    64 |     [01;31m[Kencoder_left[m[K = motorF_.get_position();
+[4.331s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.342s] [01m[K/home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kencoder_right[m[K’ was not declared in this scope
+[4.342s]    65 |     [01;31m[Kencoder_right[m[K= motorR_.get_position();
+[4.343s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[9.225s] gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+[9.226s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+[9.226s] gmake[1]: *** Waiting for unfinished jobs....
+[23.587s] [ 78%] [32m[1mLinking CXX executable Motorctl[0m
+[24.881s] [ 85%] Built target Motorctl
+[24.883s] gmake: *** [Makefile:146: all] Error 2
+[24.888s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Motorcar-NEW_ws/install/joy_control:/home/nvidia/Motorcar-NEW_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Motorcar-NEW_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Motorcar-NEW_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial -- -j12 -l12

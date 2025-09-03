@@ -1,0 +1,25 @@
+[0.439s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/nav_sim -- -j12 -l12
+[0.545s] [ 50%] [32mBuilding CXX object CMakeFiles/NAV_cmd.dir/src/NAV_cmd.cpp.o[0m
+[15.149s] [100%] [32m[1mLinking CXX executable NAV_cmd[0m
+[15.813s] [100%] Built target NAV_cmd
+[15.836s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Motorcar-NEW_ws/build/nav_sim -- -j12 -l12
+[15.841s] Invoking command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/nav_sim
+[15.857s] -- Install configuration: ""
+[15.857s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/nav_sim/NAV_cmd
+[15.866s] -- Set runtime path of "/home/nvidia/Motorcar-NEW_ws/install/nav_sim/lib/nav_sim/NAV_cmd" to ""
+[15.866s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/package_run_dependencies/nav_sim
+[15.866s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/parent_prefix_path/nav_sim
+[15.866s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.sh
+[15.867s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.dsv
+[15.867s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/path.sh
+[15.867s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/environment/path.dsv
+[15.867s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.bash
+[15.867s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.sh
+[15.868s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.zsh
+[15.868s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/local_setup.dsv
+[15.868s] -- Installing: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.dsv
+[15.868s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/ament_index/resource_index/packages/nav_sim
+[15.868s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig.cmake
+[15.868s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig-version.cmake
+[15.869s] -- Up-to-date: /home/nvidia/Motorcar-NEW_ws/install/nav_sim/share/nav_sim/package.xml
+[15.872s] Invoked command in '/home/nvidia/Motorcar-NEW_ws/build/nav_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Motorcar-NEW_ws/build/nav_sim
