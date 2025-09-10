@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-58a3e336d5960430ef2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zlac8015d_serial",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Motorctl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Motorctl-4b2320c424106d15f02b.json",
+					"name" : "Motorctl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Motorrcv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Motorrcv-6c10dec2f3b0e0c14bbf.json",
+					"name" : "Motorrcv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SimpleControl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SimpleControl-ca39a93ed7756b6ecbe9.json",
+					"name" : "SimpleControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-0e83bca02fc055ed75f6.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-955bee2de0aa2cf42455.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlac8015d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlac8015d-d031274f43a75818ace1.json",
+					"name" : "zlac8015d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlac8015d_serial_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlac8015d_serial_uninstall-532713ab039557e62047.json",
+					"name" : "zlac8015d_serial_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial",
+		"source" : "/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

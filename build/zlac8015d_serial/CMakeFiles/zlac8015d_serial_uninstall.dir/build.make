@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial
+CMAKE_SOURCE_DIR = /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial
+CMAKE_BINARY_DIR = /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial
 
 # Utility rule file for zlac8015d_serial_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/zlac8015d_serial_uninstall.dir/compiler_depend.make
 include CMakeFiles/zlac8015d_serial_uninstall.dir/progress.make
 
 CMakeFiles/zlac8015d_serial_uninstall:
-	/usr/bin/cmake -P /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 zlac8015d_serial_uninstall: CMakeFiles/zlac8015d_serial_uninstall
 zlac8015d_serial_uninstall: CMakeFiles/zlac8015d_serial_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/zlac8015d_serial_uninstall.dir/clean:
 .PHONY : CMakeFiles/zlac8015d_serial_uninstall.dir/clean
 
 CMakeFiles/zlac8015d_serial_uninstall.dir/depend:
-	cd /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial /home/nvidia/Motorcar-NEW_ws/build/zlac8015d_serial/CMakeFiles/zlac8015d_serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial/CMakeFiles/zlac8015d_serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zlac8015d_serial_uninstall.dir/depend
 

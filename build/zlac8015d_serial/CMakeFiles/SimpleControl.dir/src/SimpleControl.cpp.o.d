@@ -1,5 +1,5 @@
 CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o: \
- /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp \
+ /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
@@ -642,7 +642,7 @@ CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h \
- /home/nvidia/Motorcar-NEW_ws/install/serial/include/serial/serial.h \
- /home/nvidia/Motorcar-NEW_ws/install/serial/include/serial/v8stdint.h \
- /home/nvidia/Motorcar-NEW_ws/src/ROS2_ZLAC8015D_serial/include/Comm/crc_check.h
+ /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h \
+ /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/serial.h \
+ /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/v8stdint.h \
+ /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/Comm/crc_check.h

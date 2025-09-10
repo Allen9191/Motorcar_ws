@@ -1,0 +1,275 @@
+[0.028s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial -DCMAKE_INSTALL_PREFIX=/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.604s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.623s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.629s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.929s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.122s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.203s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.210s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.222s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.318s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.322s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.482s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.533s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.600s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.613s] -- Looking for pthread.h
+[1.749s] -- Looking for pthread.h - found
+[1.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.891s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.893s] -- Found Threads: TRUE  
+[2.002s] -- Found serial: 1.2.1 (/home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake)
+[2.006s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.023s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.163s] -- Configuring done
+[2.192s] -- Generating done
+[2.204s] -- Build files have been written to: /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial
+[2.225s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial -DCMAKE_INSTALL_PREFIX=/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial
+[2.229s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[2.321s] [ 57%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m
+[2.321s] [ 57%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[2.321s] [ 64%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[2.322s] [ 57%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[2.322s] [ 57%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[2.322s] [ 57%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/zlac8015d.cpp.o[0m
+[2.322s] [ 64%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/zlac8015d.cpp.o[0m
+[2.322s] [ 64%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/zlac8015d.cpp.o[0m
+[2.322s] [ 64%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[2.998s] [ 71%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[3.023s] [ 78%] [32m[1mLinking CXX executable example[0m
+[3.058s] [ 78%] Built target zlac8015d
+[3.182s] [ 78%] Built target example
+[6.402s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:46:3:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ksetrpm[m[K’
+[6.402s]    46 |   [01;31m[Kint[m[K
+[6.403s]       |   [01;31m[K^~~[m[K
+[6.403s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[6.403s]    52 |   void getpos(const std_msgs::msg::[01;31m[KInt32[m[K::SharedPtr msg) {
+[6.403s]       |                                    [01;31m[K^~~~~[m[K
+[6.403s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:52:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[6.403s]    52 |   void getpos(const std_msgs::msg::Int32::SharedPtr [01;31m[Kmsg[m[K) {
+[6.403s]       |                                                     [01;31m[K^~~[m[K
+[6.403s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:52:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[6.403s]    52 |   void getpos[34m[K([m[Kconst std_msgs::msg::Int32::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+[6.403s]       |              [34m[K~[m[K                                     [01;31m[K^[m[K[32m[K~~~[m[K
+[6.403s]       |                                                    [32m[K)[m[K
+[6.403s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:52:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.404s]    52 |   void getpos(const std_msgs::msg::Int32::[01;31m[KSharedPtr[m[K msg) {
+[6.404s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[6.404s]       |                                                    [32m[K;[m[K
+[6.406s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:52:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[6.406s]    52 |   void getpos(const std_msgs::msg::Int32::SharedPtr [01;31m[Kmsg[m[K) {
+[6.406s]       |                                                     [01;31m[K^~~[m[K
+[6.409s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[KZLAC[m[K’ does not name a type
+[6.409s]    71 |   [01;31m[KZLAC[m[K motorF_, motorR_;
+[6.409s]       |   [01;31m[K^~~~[m[K
+[6.478s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[6.478s]    74 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32[m[K>::SharedPtr                 getposition_sub_;
+[6.478s]       |                                       [01;31m[K^~~~~[m[K
+[6.478s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.478s]    74 |   rclcpp::Subscription<std_msgs::msg::Int32[01;31m[K>[m[K::SharedPtr                 getposition_sub_;
+[6.479s]       |                                            [01;31m[K^[m[K
+[6.479s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[6.479s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[6.479s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[6.479s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.479s]    74 |   rclcpp::Subscription<std_msgs::msg::Int32>::[01;31m[KSharedPtr[m[K                 getposition_sub_;
+[6.479s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[6.479s]       |                                                        [32m[K;[m[K
+[6.483s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:74:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetposition_sub_[m[K’ does not name a type
+[6.483s]    74 |   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr                 [01;31m[Kgetposition_sub_[m[K;
+[6.484s]       |                                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.485s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In constructor ‘[01m[KMotorreceiv::Motorreceiv()[m[K’:
+[6.485s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:27:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetrpm[m[K’ is not a member of ‘[01m[KMotorreceiv[m[K’
+[6.485s]    27 |       "/setrpm_value", 10,std::bind(&Motorreceiv::[01;31m[Ksetrpm[m[K, this, std::placeholders::_1));
+[6.485s]       |                                                   [01;31m[K^~~~~~[m[K
+[6.502s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetposition_sub_[m[K’ was not declared in this scope
+[6.502s]    29 |     [01;31m[Kgetposition_sub_[m[K = this->create_subscription<std_msgs::msg::Int32>(
+[6.502s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.503s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:29:65:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[6.503s]    29 |     getposition_sub_ = this->create_subscription<std_msgs::msg::[01;31m[KInt32[m[K>(
+[6.503s]       |                                                                 [01;31m[K^~~~~[m[K
+[6.512s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:29:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotorreceiv::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (Motorreceiv::*)(...), Motorreceiv*, const std::_Placeholder<1>&>::type)[m[K’
+[6.512s]    29 |     getposition_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32>([m[K
+[6.512s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.512s]    30 | [01;31m[K      "/getposition", 10,std::bind(&Motorreceiv::getpos, this, std::placeholders::_1))[m[K;
+[6.512s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.513s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.513s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[6.513s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[6.513s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[6.513s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.513s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.513s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:29:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.513s]    29 |     getposition_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32>([m[K
+[6.513s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.513s]    30 | [01;31m[K      "/getposition", 10,std::bind(&Motorreceiv::getpos, this, std::placeholders::_1))[m[K;
+[6.514s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.676s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.677s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.677s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In lambda function:
+[6.677s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:197:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Know[m[K’ in ‘[01m[Kc[m[K’, which is of non-class type ‘[01m[Kconst char [34][m[K’
+[6.677s]   197 |         [01;31m[KRCLCPP_INFO_THROTTLE[m[K(this->get_logger(),"FrontCtl: pos=%d rpm=%.1f tq=%.1f", posF, rpmF, tqF);
+[6.678s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.678s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.679s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.679s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[6.679s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:197:92:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst char*[m[K’
+[6.679s]   197 |         RCLCPP_INFO_THROTTLE(this->get_logger(),"FrontCtl: pos=%d rpm=%.1f tq=%.1f", posF, [01;31m[KrpmF[m[K, tqF);
+[6.679s]       |                                                                                            [01;31m[K^~~~[m[K
+[6.679s]       |                                                                                            [01;31m[K|[m[K
+[6.679s]       |                                                                                            [01;31m[Kfloat[m[K
+[6.679s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[6.679s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[6.679s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[6.679s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.680s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.680s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[6.680s]   479 |   [01;36m[Kconst char * format[m[K,
+[6.680s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[6.681s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.681s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.681s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In lambda function:
+[6.682s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:203:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Know[m[K’ in ‘[01m[Kc[m[K’, which is of non-class type ‘[01m[Kconst char [34][m[K’
+[6.682s]   203 |         [01;31m[KRCLCPP_INFO_THROTTLE[m[K(this->get_logger(),"RearCtl:  pos=%d rpm=%.1f tq=%.1f", posR, rpmR, tqR);
+[6.682s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.682s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.683s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.683s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[6.683s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:203:92:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst char*[m[K’
+[6.683s]   203 |         RCLCPP_INFO_THROTTLE(this->get_logger(),"RearCtl:  pos=%d rpm=%.1f tq=%.1f", posR, [01;31m[KrpmR[m[K, tqR);
+[6.683s]       |                                                                                            [01;31m[K^~~~[m[K
+[6.683s]       |                                                                                            [01;31m[K|[m[K
+[6.683s]       |                                                                                            [01;31m[Kfloat[m[K
+[6.683s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[6.683s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[6.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[6.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.684s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[6.684s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[6.684s]   479 |   [01;36m[Kconst char * format[m[K,
+[6.684s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[6.690s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:209:34:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmF[m[K’ was not declared in this scope
+[6.690s]   209 |     double get_radpsecF = to_rpm*[01;31m[KrpmF[m[K;
+[6.690s]       |                                  [01;31m[K^~~~[m[K
+[6.700s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:210:34:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmR[m[K’ was not declared in this scope
+[6.700s]   210 |     double get_radpsecR = to_rpm*[01;31m[KrpmR[m[K;
+[6.700s]       |                                  [01;31m[K^~~~[m[K
+[6.711s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpo[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpos[m[K’?
+[6.711s]   219 |     [01;31m[Kgpo[m[K.data = { static_cast<int32_t>(posF), static_cast<int32_t>(posR)};
+[6.711s]       |     [01;31m[K^~~[m[K
+[6.711s]       |     [32m[Kgpos[m[K
+[6.719s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:219:39:[m[K [01;31m[Kerror: [m[K‘[01m[KposF[m[K’ was not declared in this scope
+[6.719s]   219 |     gpo.data = { static_cast<int32_t>([01;31m[KposF[m[K), static_cast<int32_t>(posR)};
+[6.719s]       |                                       [01;31m[K^~~~[m[K
+[6.727s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:219:67:[m[K [01;31m[Kerror: [m[K‘[01m[KposR[m[K’ was not declared in this scope
+[6.728s]   219 |     gpo.data = { static_cast<int32_t>(posF), static_cast<int32_t>([01;31m[KposR[m[K)};
+[6.728s]       |                                                                   [01;31m[K^~~~[m[K
+[6.737s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:220:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxes_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kaxes_sub_[m[K’?
+[6.737s]   220 |     [01;31m[Kaxes_pub_[m[K->publish(gpos);
+[6.737s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.737s]       |     [32m[Kaxes_sub_[m[K
+[6.746s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:225:21:[m[K [01;31m[Kerror: [m[K‘[01m[KtqF[m[K’ was not declared in this scope
+[6.746s]   225 |     gtorq.effort = {[01;31m[KtqF[m[K, tqR};
+[6.747s]       |                     [01;31m[K^~~[m[K
+[6.755s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:225:26:[m[K [01;31m[Kerror: [m[K‘[01m[KtqR[m[K’ was not declared in this scope
+[6.755s]   225 |     gtorq.effort = {tqF, [01;31m[KtqR[m[K};
+[6.755s]       |                          [01;31m[K^~~[m[K
+[6.755s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:225:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >::_effort_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[6.755s]   225 |     gtorq.effort = {tqF, tqR[01;31m[K}[m[K;
+[6.755s]       |                             [01;31m[K^[m[K
+[6.755s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[6.755s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[6.755s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:4[m[K:
+[6.756s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[6.756s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[6.756s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.756s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[6.756s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[6.756s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.756s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[6.756s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[6.756s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:4[m[K:
+[6.756s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[6.756s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[6.756s]       |       [01;36m[K^~~~~~~~[m[K
+[6.757s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’
+[6.757s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[6.757s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[6.757s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[6.757s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[6.757s]       |       [01;36m[K^~~~~~~~[m[K
+[6.757s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<double>[m[K’
+[6.757s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[6.757s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.075s] gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+[11.075s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+[11.076s] gmake[1]: *** Waiting for unfinished jobs....
+[15.783s] gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+[15.783s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Error 2
+[16.103s] [ 85%] [32m[1mLinking CXX executable SimpleControl[0m
+[16.752s] [ 85%] Built target SimpleControl
+[16.754s] gmake: *** [Makefile:146: all] Error 2
+[16.760s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12

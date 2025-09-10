@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nvidia/Motorcar-NEW_ws/src/serial-ros2/include
+CXX_INCLUDES = -I/home/nvidia/MotorcarV1.1_ws/src/serial-ros2/include
 
 CXX_FLAGS = 
 

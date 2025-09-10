@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[ 21%] Built target example
+[ 35%] Built target zlac8015d
+[ 42%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[ 64%] Built target SimpleControl
+[ 71%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:39:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32_multi_array[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32MultiArray[m[K’?
+   80 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32_multi_array[m[K>::SharedPtr             getposition_sub_;
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KInt32MultiArray[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |   rclcpp::Subscription<std_msgs::msg::Int32_multi_array[01;31m[K>[m[K::SharedPtr             getposition_sub_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   80 |   rclcpp::Subscription<std_msgs::msg::Int32_multi_array>::[01;31m[KSharedPtr[m[K             getposition_sub_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:80:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetposition_sub_[m[K’ does not name a type
+   80 |   rclcpp::Subscription<std_msgs::msg::Int32_multi_array>::SharedPtr             [01;31m[Kgetposition_sub_[m[K;
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In constructor ‘[01m[KMotorreceiv::Motorreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetposition_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_positionF[m[K’?
+   30 |     [01;31m[Kgetposition_sub_[m[K = this->create_subscription<std_msgs::msg::Int32_multi_array>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kget_positionF[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:30:65:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32_multi_array[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32MultiArray[m[K’?
+   30 |     getposition_sub_ = this->create_subscription<std_msgs::msg::[01;31m[KInt32_multi_array[m[K>(
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                 [32m[KInt32MultiArray[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:30:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotorreceiv::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (Motorreceiv::*)(std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >), Motorreceiv*, const std::_Placeholder<1>&>::type)[m[K’
+   30 |     getposition_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32_multi_array>([m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K      "/getposition", 10,std::bind(&Motorreceiv::getpos, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:30:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |     getposition_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32_multi_array>([m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K      "/getposition", 10,std::bind(&Motorreceiv::getpos, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::getpos(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:61:31:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type {aka int}[int][m[K’ for array subscript
+   61 |     get_positionF  = msg->data[01;31m[K[[m[K0];
+      |                               [01;31m[K^[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:62:30:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type {aka int}[int][m[K’ for array subscript
+   62 |     get_positionR = msg->data[01;31m[K[[m[K1];
+      |                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 78%] [32m[1mLinking CXX executable Motorctl[0m
+[ 85%] Built target Motorctl
+gmake: *** [Makefile:146: all] Error 2

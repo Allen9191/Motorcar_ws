@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/Motorcar-NEW_ws/src/joy_control
+CMAKE_SOURCE_DIR = /home/nvidia/MotorcarV1.1_ws/src/joy_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/Motorcar-NEW_ws/build/joy_control
+CMAKE_BINARY_DIR = /home/nvidia/MotorcarV1.1_ws/build/joy_control
 
 # Utility rule file for joy_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/joy_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/joy_control_uninstall.dir/progress.make
 
 CMakeFiles/joy_control_uninstall:
-	/usr/bin/cmake -P /home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 joy_control_uninstall: CMakeFiles/joy_control_uninstall
 joy_control_uninstall: CMakeFiles/joy_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/joy_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/joy_control_uninstall.dir/clean
 
 CMakeFiles/joy_control_uninstall.dir/depend:
-	cd /home/nvidia/Motorcar-NEW_ws/build/joy_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/Motorcar-NEW_ws/src/joy_control /home/nvidia/Motorcar-NEW_ws/src/joy_control /home/nvidia/Motorcar-NEW_ws/build/joy_control /home/nvidia/Motorcar-NEW_ws/build/joy_control /home/nvidia/Motorcar-NEW_ws/build/joy_control/CMakeFiles/joy_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/MotorcarV1.1_ws/build/joy_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/MotorcarV1.1_ws/src/joy_control /home/nvidia/MotorcarV1.1_ws/src/joy_control /home/nvidia/MotorcarV1.1_ws/build/joy_control /home/nvidia/MotorcarV1.1_ws/build/joy_control /home/nvidia/MotorcarV1.1_ws/build/joy_control/CMakeFiles/joy_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joy_control_uninstall.dir/depend
 

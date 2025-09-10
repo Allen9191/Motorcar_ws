@@ -1,0 +1,12 @@
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmF[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmFR[m[K’?
+  206 |       [01;31m[KrpmF[m[K = motorF_.get_rpm();
+      |       [01;31m[K^~~~[m[K
+      |       [32m[KrpmFR[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:218:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmR[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmRR[m[K’?
+  218 |       [01;31m[KrpmR[m[K = motorR_.get_rpm();
+      |       [01;31m[K^~~~[m[K
+      |       [32m[KrpmRR[m[K
+gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

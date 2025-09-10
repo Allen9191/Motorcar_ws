@@ -1,0 +1,58 @@
+[0.028s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target zlac8015d[0m
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target SimpleControl[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[0.142s] [ 15%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[0.142s] [ 15%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[0.142s] [ 23%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[0.149s] [ 38%] Built target Motorrcv
+[0.150s] [ 53%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/zlac8015d.cpp.o[0m
+[0.150s] [ 53%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m
+[0.153s] [ 61%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[0.155s] [ 69%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/zlac8015d.cpp.o[0m
+[0.821s] [ 76%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[0.822s] [ 84%] [32m[1mLinking CXX executable example[0m
+[0.886s] [ 84%] Built target zlac8015d
+[1.010s] [ 84%] Built target example
+[4.284s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp:[m[K In member function ‘[01m[Kvoid JoyToZlac::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.285s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp:78:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZLAC::get_rpm()[m[K’
+[4.285s]    78 |     [01;31m[KmotorF_.get_rpm()[m[K;
+[4.285s]       |     [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[4.285s] In file included from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp:5[m[K:
+[4.285s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat ZLAC::get_rpm(std::string)[m[K’
+[4.285s]   139 |     float [01;36m[Kget_rpm[m[K(std::string side);
+[4.285s]       |           [01;36m[K^~~~~~~[m[K
+[4.335s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.335s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp:79:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZLAC::get_rpm()[m[K’
+[4.335s]    79 |     [01;31m[KmotorR_.get_rpm()[m[K;
+[4.335s]       |     [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[4.335s] In file included from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/SimpleControl.cpp:5[m[K:
+[4.335s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat ZLAC::get_rpm(std::string)[m[K’
+[4.335s]   139 |     float [01;36m[Kget_rpm[m[K(std::string side);
+[4.335s]       |           [01;36m[K^~~~~~~[m[K
+[4.335s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.489s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[4.489s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:204:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZLAC::get_rpm()[m[K’
+[4.489s]   204 |       auto rpmF = [01;31m[KmotorF_.get_rpm()[m[K;
+[4.489s]       |                   [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[4.489s] In file included from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:13[m[K:
+[4.489s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat ZLAC::get_rpm(std::string)[m[K’
+[4.490s]   139 |     float [01;36m[Kget_rpm[m[K(std::string side);
+[4.490s]       |           [01;36m[K^~~~~~~[m[K
+[4.490s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.490s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:214:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZLAC::get_rpm()[m[K’
+[4.490s]   214 |       auto rpmR = [01;31m[KmotorR_.get_rpm()[m[K;
+[4.490s]       |                   [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[4.490s] In file included from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:13[m[K:
+[4.490s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat ZLAC::get_rpm(std::string)[m[K’
+[4.490s]   139 |     float [01;36m[Kget_rpm[m[K(std::string side);
+[4.490s]       |           [01;36m[K^~~~~~~[m[K
+[4.490s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/include/zlac8015d.h:139:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[8.750s] gmake[2]: *** [CMakeFiles/SimpleControl.dir/build.make:76: CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o] Error 1
+[8.751s] gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/SimpleControl.dir/all] Error 2
+[8.751s] gmake[1]: *** Waiting for unfinished jobs....
+[13.496s] gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+[13.497s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Error 2
+[13.497s] gmake: *** [Makefile:146: all] Error 2
+[13.503s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12

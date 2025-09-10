@@ -1,0 +1,98 @@
+[0.027s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[0.127s] [  7%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[0.128s] [ 15%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[0.128s] [ 23%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[0.131s] [ 38%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m
+[0.131s] [ 38%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[0.132s] [ 53%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/zlac8015d.cpp.o[0m
+[0.132s] [ 53%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/zlac8015d.cpp.o[0m
+[0.134s] [ 69%] Built target Motorrcv
+[0.780s] [ 84%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[0.780s] [ 84%] [32m[1mLinking CXX executable example[0m
+[0.838s] [ 84%] Built target zlac8015d
+[0.940s] [ 84%] Built target example
+[4.435s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.436s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[4.436s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[4.437s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:209:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.437s]   209 |       RCLCPP_INFO(get_logger(), [01;35m[K"FrontCtl: pos=%d rpmFL=%.1f rpmFR=%.1f tq=%.1f"[m[K, posF, rpmF, tqF);
+[4.437s]       |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.437s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:209:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.437s]   209 |       RCLCPP_INFO(get_logger(), "FrontCtl: pos=%d rpmFL=%.1f rpmFR=%.1f tq=[01;36m[K%.1f[m[K", posF, rpmF, tqF);
+[4.437s]       |                                                                            [01;36m[K~~~^[m[K
+[4.437s]       |                                                                               [01;36m[K|[m[K
+[4.437s]       |                                                                               [01;36m[Kdouble[m[K
+[4.437s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.438s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[4.438s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:221:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.438s]   221 |       RCLCPP_INFO(get_logger(), [01;35m[K"RearCtl:  pos=%d rpmRL=%.1f rpmRR=%.1f tq=%.1f"[m[K, posR, rpmR, tqR);
+[4.438s]       |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.438s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:221:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.438s]   221 |       RCLCPP_INFO(get_logger(), "RearCtl:  pos=%d rpmRL=%.1f rpmRR=%.1f tq=[01;36m[K%.1f[m[K", posR, rpmR, tqR);
+[4.438s]       |                                                                            [01;36m[K~~~^[m[K
+[4.439s]       |                                                                               [01;36m[K|[m[K
+[4.439s]       |                                                                               [01;36m[Kdouble[m[K
+[13.885s] [ 92%] [32m[1mLinking CXX executable SimpleControl[0m
+[14.538s] [ 92%] Built target SimpleControl
+[24.262s] [100%] [32m[1mLinking CXX executable Motorctl[0m
+[25.541s] [100%] Built target Motorctl
+[25.598s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[25.603s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial
+[25.617s] -- Install configuration: ""
+[25.618s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.sh
+[25.618s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.dsv
+[25.618s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/include/include
+[25.618s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/include/include/Motorctl.h
+[25.618s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/include/include/zlac8015d.h
+[25.618s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/include/include/Comm
+[25.619s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/include/include/Comm/crc_check.h
+[25.619s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/example
+[25.619s] -- Set runtime path of "/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/example" to ""
+[25.619s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/SimpleControl
+[25.628s] -- Set runtime path of "/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/SimpleControl" to ""
+[25.628s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/Motorctl
+[25.643s] -- Set runtime path of "/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/Motorctl" to ""
+[25.643s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/zlac8015d_serial/Motorrcv
+[25.643s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch/serial_test.launch.py
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/launch/joyCH_motor.launch.py
+[25.644s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/lib/libzlac8015d.a
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/ament_index/resource_index/package_run_dependencies/zlac8015d_serial
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/ament_index/resource_index/parent_prefix_path/zlac8015d_serial
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.sh
+[25.644s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.dsv
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.sh
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.dsv
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.bash
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.sh
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.zsh
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.dsv
+[25.645s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.dsv
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/ament_index/resource_index/packages/zlac8015d_serial
+[25.645s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport.cmake
+[25.646s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport-noconfig.cmake
+[25.646s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/ament_cmake_export_targets-extras.cmake
+[25.646s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig.cmake
+[25.646s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig-version.cmake
+[25.646s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial/share/zlac8015d_serial/package.xml
+[25.651s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial

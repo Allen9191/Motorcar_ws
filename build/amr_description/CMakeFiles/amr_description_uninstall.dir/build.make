@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/Motorcar-NEW_ws/src/amr_description
+CMAKE_SOURCE_DIR = /home/nvidia/MotorcarV1.1_ws/src/amr_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/Motorcar-NEW_ws/build/amr_description
+CMAKE_BINARY_DIR = /home/nvidia/MotorcarV1.1_ws/build/amr_description
 
 # Utility rule file for amr_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/amr_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/amr_description_uninstall.dir/progress.make
 
 CMakeFiles/amr_description_uninstall:
-	/usr/bin/cmake -P /home/nvidia/Motorcar-NEW_ws/build/amr_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nvidia/MotorcarV1.1_ws/build/amr_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 amr_description_uninstall: CMakeFiles/amr_description_uninstall
 amr_description_uninstall: CMakeFiles/amr_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/amr_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/amr_description_uninstall.dir/clean
 
 CMakeFiles/amr_description_uninstall.dir/depend:
-	cd /home/nvidia/Motorcar-NEW_ws/build/amr_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/Motorcar-NEW_ws/src/amr_description /home/nvidia/Motorcar-NEW_ws/src/amr_description /home/nvidia/Motorcar-NEW_ws/build/amr_description /home/nvidia/Motorcar-NEW_ws/build/amr_description /home/nvidia/Motorcar-NEW_ws/build/amr_description/CMakeFiles/amr_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/MotorcarV1.1_ws/build/amr_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/MotorcarV1.1_ws/src/amr_description /home/nvidia/MotorcarV1.1_ws/src/amr_description /home/nvidia/MotorcarV1.1_ws/build/amr_description /home/nvidia/MotorcarV1.1_ws/build/amr_description /home/nvidia/MotorcarV1.1_ws/build/amr_description/CMakeFiles/amr_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/amr_description_uninstall.dir/depend
 

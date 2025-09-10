@@ -1,0 +1,527 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (amr_description) JobQueued: {'identifier': 'amr_description', 'dependencies': OrderedDict()}
+[0.001060] (keyboard_joy) JobQueued: {'identifier': 'keyboard_joy', 'dependencies': OrderedDict()}
+[0.001256] (nav_sim) JobQueued: {'identifier': 'nav_sim', 'dependencies': OrderedDict()}
+[0.001484] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001579] (joy_control) JobQueued: {'identifier': 'joy_control', 'dependencies': OrderedDict([('serial', '/home/nvidia/MotorcarV1.1_ws/install/serial')])}
+[0.001663] (zlac8015d_serial) JobQueued: {'identifier': 'zlac8015d_serial', 'dependencies': OrderedDict([('keyboard_joy', '/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy'), ('serial', '/home/nvidia/MotorcarV1.1_ws/install/serial'), ('joy_control', '/home/nvidia/MotorcarV1.1_ws/install/joy_control')])}
+[0.001745] (motorcar_bringup) JobQueued: {'identifier': 'motorcar_bringup', 'dependencies': OrderedDict([('keyboard_joy', '/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy'), ('nav_sim', '/home/nvidia/MotorcarV1.1_ws/install/nav_sim'), ('serial', '/home/nvidia/MotorcarV1.1_ws/install/serial'), ('joy_control', '/home/nvidia/MotorcarV1.1_ws/install/joy_control'), ('zlac8015d_serial', '/home/nvidia/MotorcarV1.1_ws/install/zlac8015d_serial')])}
+[0.001886] (serial) JobStarted: {'identifier': 'serial'}
+[0.023178] (keyboard_joy) JobStarted: {'identifier': 'keyboard_joy'}
+[0.031941] (nav_sim) JobStarted: {'identifier': 'nav_sim'}
+[0.037025] (amr_description) JobStarted: {'identifier': 'amr_description'}
+[0.044405] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.045740] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.046753] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/MotorcarV1.1_ws/build/serial', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.099356] (-) TimerEvent: {}
+[0.199948] (-) TimerEvent: {}
+[0.300696] (-) TimerEvent: {}
+[0.401419] (-) TimerEvent: {}
+[0.462204] (nav_sim) JobProgress: {'identifier': 'nav_sim', 'progress': 'cmake'}
+[0.464165] (nav_sim) JobProgress: {'identifier': 'nav_sim', 'progress': 'build'}
+[0.465065] (nav_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/MotorcarV1.1_ws/build/nav_sim', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/nav_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/nav_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.471934] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.477217] (serial) CommandEnded: {'returncode': 0}
+[0.479447] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.493845] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/MotorcarV1.1_ws/build/serial'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.497271] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'cmake'}
+[0.498822] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'build'}
+[0.499218] (amr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/MotorcarV1.1_ws/build/amr_description', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/amr_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/amr_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.503530] (-) TimerEvent: {}
+[0.510412] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.510889] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[0.511119] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.511324] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/lib/libserial.a\n'}
+[0.511477] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/serial.h\n'}
+[0.511598] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/v8stdint.h\n'}
+[0.511715] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.511893] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.512088] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.512231] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.512349] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/path.sh\n'}
+[0.512459] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/path.dsv\n'}
+[0.512568] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.bash\n'}
+[0.512677] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.sh\n'}
+[0.512783] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.zsh\n'}
+[0.512889] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.dsv\n'}
+[0.512994] (serial) StdoutLine: {'line': b'-- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/package.dsv\n'}
+[0.513098] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.513206] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.513348] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.513461] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.513565] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.513667] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/package.xml\n'}
+[0.515555] (serial) CommandEnded: {'returncode': 0}
+[0.554842] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.556748] (joy_control) JobStarted: {'identifier': 'joy_control'}
+[0.569316] (amr_description) CommandEnded: {'returncode': 0}
+[0.571366] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'install'}
+[0.571845] (amr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/MotorcarV1.1_ws/build/amr_description'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/amr_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/amr_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.575038] (joy_control) JobProgress: {'identifier': 'joy_control', 'progress': 'cmake'}
+[0.576279] (joy_control) JobProgress: {'identifier': 'joy_control', 'progress': 'build'}
+[0.576686] (joy_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/MotorcarV1.1_ws/build/joy_control', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/joy_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial/lib:/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/joy_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.588579] (nav_sim) StdoutLine: {'line': b'[100%] Built target NAV_cmd\n'}
+[0.588976] (amr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.589193] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf\n'}
+[0.589333] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf/basestructure_link.urdf.xacro\n'}
+[0.589476] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf/structure_link.urdf.xacro\n'}
+[0.589591] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/launch\n'}
+[0.589705] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/launch/display.launch.py\n'}
+[0.589816] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description\n'}
+[0.589938] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description\n'}
+[0.590048] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh\n'}
+[0.590169] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv\n'}
+[0.590257] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/path.sh\n'}
+[0.590342] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/path.dsv\n'}
+[0.590423] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.bash\n'}
+[0.590503] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.sh\n'}
+[0.590582] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.zsh\n'}
+[0.590660] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.dsv\n'}
+[0.590762] (amr_description) StdoutLine: {'line': b'-- Installing: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/package.dsv\n'}
+[0.590936] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description\n'}
+[0.591055] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake\n'}
+[0.591167] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake\n'}
+[0.591254] (amr_description) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/package.xml\n'}
+[0.594617] (amr_description) CommandEnded: {'returncode': 0}
+[0.603780] (-) TimerEvent: {}
+[0.616036] (amr_description) JobEnded: {'identifier': 'amr_description', 'rc': 0}
+[0.617721] (nav_sim) CommandEnded: {'returncode': 0}
+[0.618959] (nav_sim) JobProgress: {'identifier': 'nav_sim', 'progress': 'install'}
+[0.619303] (nav_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/MotorcarV1.1_ws/build/nav_sim'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/nav_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/nav_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.633701] (nav_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.634461] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/lib/nav_sim/NAV_cmd\n'}
+[0.634751] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/ament_index/resource_index/package_run_dependencies/nav_sim\n'}
+[0.634878] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/ament_index/resource_index/parent_prefix_path/nav_sim\n'}
+[0.634992] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.sh\n'}
+[0.635111] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/environment/ament_prefix_path.dsv\n'}
+[0.635221] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/environment/path.sh\n'}
+[0.635340] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/environment/path.dsv\n'}
+[0.635445] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/local_setup.bash\n'}
+[0.635560] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/local_setup.sh\n'}
+[0.635649] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/local_setup.zsh\n'}
+[0.635731] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/local_setup.dsv\n'}
+[0.635843] (nav_sim) StdoutLine: {'line': b'-- Installing: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/package.dsv\n'}
+[0.636031] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/ament_index/resource_index/packages/nav_sim\n'}
+[0.636133] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig.cmake\n'}
+[0.636232] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/cmake/nav_simConfig-version.cmake\n'}
+[0.636345] (nav_sim) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/nav_sim/share/nav_sim/package.xml\n'}
+[0.639663] (nav_sim) CommandEnded: {'returncode': 0}
+[0.658979] (nav_sim) JobEnded: {'identifier': 'nav_sim', 'rc': 0}
+[0.691044] (joy_control) StdoutLine: {'line': b'[100%] Built target joy_control\n'}
+[0.703881] (-) TimerEvent: {}
+[0.712111] (joy_control) CommandEnded: {'returncode': 0}
+[0.713481] (joy_control) JobProgress: {'identifier': 'joy_control', 'progress': 'install'}
+[0.713818] (joy_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/MotorcarV1.1_ws/build/joy_control'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/joy_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial/lib:/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/joy_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.731747] (joy_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.732690] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/lib/joy_control/joy_control\n'}
+[0.733050] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/ament_index/resource_index/package_run_dependencies/joy_control\n'}
+[0.733184] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/ament_index/resource_index/parent_prefix_path/joy_control\n'}
+[0.733315] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/environment/ament_prefix_path.sh\n'}
+[0.733489] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/environment/ament_prefix_path.dsv\n'}
+[0.733615] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/environment/path.sh\n'}
+[0.733724] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/environment/path.dsv\n'}
+[0.733842] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/local_setup.bash\n'}
+[0.733929] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/local_setup.sh\n'}
+[0.734045] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/local_setup.zsh\n'}
+[0.734126] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/local_setup.dsv\n'}
+[0.734206] (joy_control) StdoutLine: {'line': b'-- Installing: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/package.dsv\n'}
+[0.734482] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/ament_index/resource_index/packages/joy_control\n'}
+[0.734595] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/cmake/joy_controlConfig.cmake\n'}
+[0.734691] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/cmake/joy_controlConfig-version.cmake\n'}
+[0.734791] (joy_control) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/joy_control/share/joy_control/package.xml\n'}
+[0.737840] (joy_control) CommandEnded: {'returncode': 0}
+[0.755810] (joy_control) JobEnded: {'identifier': 'joy_control', 'rc': 0}
+[0.803995] (-) TimerEvent: {}
+[0.904421] (-) TimerEvent: {}
+[1.004913] (-) TimerEvent: {}
+[1.044842] (keyboard_joy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_joy', 'build', '--build-base', '/home/nvidia/MotorcarV1.1_ws/build/keyboard_joy/build', 'install', '--record', '/home/nvidia/MotorcarV1.1_ws/build/keyboard_joy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/src/keyboard_joy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/nvidia', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.3', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'EAC-5000 - Jetson AGX Orin 64GB', 'SYSTEMD_EXEC_PID': '3570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/piek-src/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nvidia', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '1421323014110', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/nvidia/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/nvidia/MotorcarV1.1_ws/build/keyboard_joy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nvidia/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/MotorcarV1.1_ws/build/keyboard_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.2', 'CMAKE_PREFIX_PATH': '/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control'}, 'shell': False}
+[1.105009] (-) TimerEvent: {}
+[1.205586] (-) TimerEvent: {}
+[1.306259] (-) TimerEvent: {}
+[1.399811] (keyboard_joy) StdoutLine: {'line': b'running egg_info\n'}
+[1.400686] (keyboard_joy) StdoutLine: {'line': b'writing ../../build/keyboard_joy/keyboard_joy.egg-info/PKG-INFO\n'}
+[1.401094] (keyboard_joy) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_joy/keyboard_joy.egg-info/dependency_links.txt\n'}
+[1.401444] (keyboard_joy) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_joy/keyboard_joy.egg-info/entry_points.txt\n'}
+[1.401798] (keyboard_joy) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_joy/keyboard_joy.egg-info/requires.txt\n'}
+[1.402035] (keyboard_joy) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_joy/keyboard_joy.egg-info/top_level.txt\n'}
+[1.404390] (keyboard_joy) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_joy/keyboard_joy.egg-info/SOURCES.txt'\n"}
+[1.406331] (-) TimerEvent: {}
+[1.412140] (keyboard_joy) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_joy/keyboard_joy.egg-info/SOURCES.txt'\n"}
+[1.412503] (keyboard_joy) StdoutLine: {'line': b'running build\n'}
+[1.412818] (keyboard_joy) StdoutLine: {'line': b'running build_py\n'}
+[1.413052] (keyboard_joy) StdoutLine: {'line': b'running install\n'}
+[1.413361] (keyboard_joy) StdoutLine: {'line': b'running install_lib\n'}
+[1.415135] (keyboard_joy) StdoutLine: {'line': b'running install_data\n'}
+[1.415537] (keyboard_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.417955] (keyboard_joy) StdoutLine: {'line': b"removing '/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages/keyboard_joy-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[1.418442] (keyboard_joy) StdoutLine: {'line': b'Copying ../../build/keyboard_joy/keyboard_joy.egg-info to /home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages/keyboard_joy-0.0.1-py3.10.egg-info\n'}
+[1.419931] (keyboard_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[1.451059] (keyboard_joy) StdoutLine: {'line': b'Installing joy_node script to /home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/keyboard_joy\n'}
+[1.451740] (keyboard_joy) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/MotorcarV1.1_ws/build/keyboard_joy/install.log'\n"}
+[1.507699] (keyboard_joy) CommandEnded: {'returncode': 0}
+[1.509552] (-) TimerEvent: {}
+[1.531758] (keyboard_joy) JobEnded: {'identifier': 'keyboard_joy', 'rc': 0}
+[1.535443] (zlac8015d_serial) JobStarted: {'identifier': 'zlac8015d_serial'}
+[1.557911] (zlac8015d_serial) JobProgress: {'identifier': 'zlac8015d_serial', 'progress': 'cmake'}
+[1.560258] (zlac8015d_serial) JobProgress: {'identifier': 'zlac8015d_serial', 'progress': 'build'}
+[1.561128] (zlac8015d_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/MotorcarV1.1_ws/install/serial/lib:/usr/local/cuda/lib64:/home/nvidia/piek-src/install/willy_interfaces/lib:/home/nvidia/piek-src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'EAC-5000 - Jetson AGX Orin 64GB'), ('SYSTEMD_EXEC_PID', '3570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/piek-src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421323014110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/nvidia/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EAC5k-OrinAGX:@/tmp/.ICE-unix/3379,unix/EAC5k-OrinAGX:/tmp/.ICE-unix/3379'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e52542f_0d98_4b15_91fb_a6114bacb23d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/keyboard_joy:/home/nvidia/piek-src/install/joy_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:/home/nvidia/piek-src/install/willy_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/piek-src/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[1.609960] (-) TimerEvent: {}
+[1.616658] (zlac8015d_serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.710134] (-) TimerEvent: {}
+[1.810836] (-) TimerEvent: {}
+[1.853795] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.908970] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.910915] (-) TimerEvent: {}
+[1.914242] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.925223] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.941395] (zlac8015d_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.960799] (zlac8015d_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.009797] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.011013] (-) TimerEvent: {}
+[2.012813] (zlac8015d_serial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.111264] (-) TimerEvent: {}
+[2.158777] (zlac8015d_serial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.211346] (-) TimerEvent: {}
+[2.231328] (zlac8015d_serial) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake)\n'}
+[2.233556] (zlac8015d_serial) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.251229] (zlac8015d_serial) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.276361] (zlac8015d_serial) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.301435] (zlac8015d_serial) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.311443] (-) TimerEvent: {}
+[2.316581] (zlac8015d_serial) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.411612] (-) TimerEvent: {}
+[2.448819] (zlac8015d_serial) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.469931] (zlac8015d_serial) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.471964] (zlac8015d_serial) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.472282] (zlac8015d_serial) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.511758] (-) TimerEvent: {}
+[2.603099] (zlac8015d_serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.611850] (-) TimerEvent: {}
+[2.669395] (zlac8015d_serial) StdoutLine: {'line': b'-- Generating done\n'}
+[2.686358] (zlac8015d_serial) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial\n'}
+[2.711973] (-) TimerEvent: {}
+[2.743166] (zlac8015d_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example\x1b[0m\n'}
+[2.743574] (zlac8015d_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zlac8015d\x1b[0m\n'}
+[2.743723] (zlac8015d_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Motorrcv\x1b[0m\n'}
+[2.743821] (zlac8015d_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target SimpleControl\x1b[0m\n'}
+[2.743914] (zlac8015d_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Motorctl\x1b[0m\n'}
+[2.767695] (zlac8015d_serial) StdoutLine: {'line': b'[ 15%] Built target zlac8015d\n'}
+[2.768153] (zlac8015d_serial) StdoutLine: {'line': b'[ 38%] Built target example\n'}
+[2.777213] (zlac8015d_serial) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o\x1b[0m\n'}
+[2.777683] (zlac8015d_serial) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o\x1b[0m\n'}
+[2.777900] (zlac8015d_serial) StdoutLine: {'line': b'[ 76%] Built target SimpleControl\n'}
+[2.812148] (-) TimerEvent: {}
+[2.912759] (-) TimerEvent: {}
+[3.013371] (-) TimerEvent: {}
+[3.113976] (-) TimerEvent: {}
+[3.214580] (-) TimerEvent: {}
+[3.315205] (-) TimerEvent: {}
+[3.415839] (-) TimerEvent: {}
+[3.516475] (-) TimerEvent: {}
+[3.617110] (-) TimerEvent: {}
+[3.717756] (-) TimerEvent: {}
+[3.818388] (-) TimerEvent: {}
+[3.919053] (-) TimerEvent: {}
+[4.019671] (-) TimerEvent: {}
+[4.120301] (-) TimerEvent: {}
+[4.220955] (-) TimerEvent: {}
+[4.321622] (-) TimerEvent: {}
+[4.422247] (-) TimerEvent: {}
+[4.522883] (-) TimerEvent: {}
+[4.623515] (-) TimerEvent: {}
+[4.724187] (-) TimerEvent: {}
+[4.824811] (-) TimerEvent: {}
+[4.925422] (-) TimerEvent: {}
+[5.026057] (-) TimerEvent: {}
+[5.126705] (-) TimerEvent: {}
+[5.227337] (-) TimerEvent: {}
+[5.327949] (-) TimerEvent: {}
+[5.428556] (-) TimerEvent: {}
+[5.529197] (-) TimerEvent: {}
+[5.629885] (-) TimerEvent: {}
+[5.730506] (-) TimerEvent: {}
+[5.831125] (-) TimerEvent: {}
+[5.931743] (-) TimerEvent: {}
+[6.032396] (-) TimerEvent: {}
+[6.133262] (-) TimerEvent: {}
+[6.234190] (-) TimerEvent: {}
+[6.335069] (-) TimerEvent: {}
+[6.435688] (-) TimerEvent: {}
+[6.536285] (-) TimerEvent: {}
+[6.637139] (-) TimerEvent: {}
+[6.738010] (-) TimerEvent: {}
+[6.838641] (-) TimerEvent: {}
+[6.939248] (-) TimerEvent: {}
+[7.039858] (-) TimerEvent: {}
+[7.140503] (-) TimerEvent: {}
+[7.241146] (-) TimerEvent: {}
+[7.329354] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMotorreceiv::Motorreceiv()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.329838] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broad_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.329962] (zlac8015d_serial) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Ktf_broad_\x1b[m\x1b[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);\n'}
+[7.330056] (zlac8015d_serial) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.341236] (-) TimerEvent: {}
+[7.397165] (zlac8015d_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.397507] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.397642] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.397737] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.397822] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.397906] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.397988] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.398069] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.398147] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.398227] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.398304] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.398381] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6\x1b[m\x1b[K:\n'}
+[7.398458] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Motorreceiv::ZLACreceiv()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.398569] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_longFL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.398654] (zlac8015d_serial) StderrLine: {'line': b'  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",\x1b[01;31m\x1b[Kpath_longFL\x1b[m\x1b[K, path_longFR, path_longRL, path_longRR);\n'}
+[7.398736] (zlac8015d_serial) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.408538] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_longFR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.408896] (zlac8015d_serial) StderrLine: {'line': b'  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, \x1b[01;31m\x1b[Kpath_longFR\x1b[m\x1b[K, path_longRL, path_longRR);\n'}
+[7.409007] (zlac8015d_serial) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.419099] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_longRL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.419327] (zlac8015d_serial) StderrLine: {'line': b'  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, \x1b[01;31m\x1b[Kpath_longRL\x1b[m\x1b[K, path_longRR);\n'}
+[7.419421] (zlac8015d_serial) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.429389] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_longRR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.429595] (zlac8015d_serial) StderrLine: {'line': b'  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, path_longRL, \x1b[01;31m\x1b[Kpath_longRR\x1b[m\x1b[K);\n'}
+[7.429684] (zlac8015d_serial) StderrLine: {'line': b'      |                                                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.440125] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:287:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmodom\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.440340] (zlac8015d_serial) StderrLine: {'line': b'  287 |   auto &Pc = \x1b[01;31m\x1b[Kodom\x1b[m\x1b[K.pose.covariance;\n'}
+[7.440429] (zlac8015d_serial) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.440510] (zlac8015d_serial) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kmodom\x1b[m\x1b[K\n'}
+[7.441301] (-) TimerEvent: {}
+[7.450778] (zlac8015d_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.451026] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.451126] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.451261] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.451345] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.451424] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.451501] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.451577] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.451653] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.451731] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.451807] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.451882] (zlac8015d_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6\x1b[m\x1b[K:\n'}
+[7.451957] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.452036] (zlac8015d_serial) StderrLine: {'line': b'  319 |               \x1b[01;31m\x1b[Kv\x1b[m\x1b[K, wz, x_AMR, y_AMR, theta_AMR);\n'}
+[7.452112] (zlac8015d_serial) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.457991] (zlac8015d_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.458150] (zlac8015d_serial) StderrLine: {'line': b'  319 |               v, \x1b[01;31m\x1b[Kwz\x1b[m\x1b[K, x_AMR, y_AMR, theta_AMR);\n'}
+[7.458240] (zlac8015d_serial) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.541485] (-) TimerEvent: {}
+[7.642118] (-) TimerEvent: {}
+[7.742977] (-) TimerEvent: {}
+[7.843607] (-) TimerEvent: {}
+[7.944495] (-) TimerEvent: {}
+[8.045388] (-) TimerEvent: {}
+[8.146263] (-) TimerEvent: {}
+[8.246982] (-) TimerEvent: {}
+[8.347583] (-) TimerEvent: {}
+[8.448171] (-) TimerEvent: {}
+[8.548753] (-) TimerEvent: {}
+[8.649350] (-) TimerEvent: {}
+[8.749903] (-) TimerEvent: {}
+[8.850441] (-) TimerEvent: {}
+[8.950989] (-) TimerEvent: {}
+[9.051559] (-) TimerEvent: {}
+[9.152122] (-) TimerEvent: {}
+[9.252728] (-) TimerEvent: {}
+[9.353308] (-) TimerEvent: {}
+[9.453881] (-) TimerEvent: {}
+[9.554481] (-) TimerEvent: {}
+[9.655072] (-) TimerEvent: {}
+[9.755651] (-) TimerEvent: {}
+[9.856208] (-) TimerEvent: {}
+[9.956799] (-) TimerEvent: {}
+[10.057406] (-) TimerEvent: {}
+[10.158012] (-) TimerEvent: {}
+[10.258633] (-) TimerEvent: {}
+[10.359254] (-) TimerEvent: {}
+[10.459879] (-) TimerEvent: {}
+[10.560496] (-) TimerEvent: {}
+[10.661097] (-) TimerEvent: {}
+[10.761704] (-) TimerEvent: {}
+[10.862289] (-) TimerEvent: {}
+[10.962896] (-) TimerEvent: {}
+[11.063508] (-) TimerEvent: {}
+[11.164136] (-) TimerEvent: {}
+[11.264747] (-) TimerEvent: {}
+[11.365377] (-) TimerEvent: {}
+[11.465987] (-) TimerEvent: {}
+[11.566590] (-) TimerEvent: {}
+[11.667189] (-) TimerEvent: {}
+[11.767783] (-) TimerEvent: {}
+[11.868387] (-) TimerEvent: {}
+[11.969006] (-) TimerEvent: {}
+[12.069620] (-) TimerEvent: {}
+[12.170266] (-) TimerEvent: {}
+[12.270890] (-) TimerEvent: {}
+[12.371516] (-) TimerEvent: {}
+[12.472155] (-) TimerEvent: {}
+[12.572765] (-) TimerEvent: {}
+[12.673385] (-) TimerEvent: {}
+[12.773972] (-) TimerEvent: {}
+[12.874571] (-) TimerEvent: {}
+[12.975186] (-) TimerEvent: {}
+[13.075768] (-) TimerEvent: {}
+[13.176361] (-) TimerEvent: {}
+[13.276981] (-) TimerEvent: {}
+[13.377632] (-) TimerEvent: {}
+[13.478250] (-) TimerEvent: {}
+[13.578869] (-) TimerEvent: {}
+[13.665388] (zlac8015d_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1\n'}
+[13.666216] (zlac8015d_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2\n'}
+[13.666386] (zlac8015d_serial) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[13.678913] (-) TimerEvent: {}
+[13.779324] (-) TimerEvent: {}
+[13.879892] (-) TimerEvent: {}
+[13.980470] (-) TimerEvent: {}
+[14.081030] (-) TimerEvent: {}
+[14.181645] (-) TimerEvent: {}
+[14.282245] (-) TimerEvent: {}
+[14.382842] (-) TimerEvent: {}
+[14.483443] (-) TimerEvent: {}
+[14.584038] (-) TimerEvent: {}
+[14.684647] (-) TimerEvent: {}
+[14.785247] (-) TimerEvent: {}
+[14.885830] (-) TimerEvent: {}
+[14.986443] (-) TimerEvent: {}
+[15.087049] (-) TimerEvent: {}
+[15.187638] (-) TimerEvent: {}
+[15.288235] (-) TimerEvent: {}
+[15.388827] (-) TimerEvent: {}
+[15.489428] (-) TimerEvent: {}
+[15.590010] (-) TimerEvent: {}
+[15.690592] (-) TimerEvent: {}
+[15.791191] (-) TimerEvent: {}
+[15.891780] (-) TimerEvent: {}
+[15.992385] (-) TimerEvent: {}
+[16.092984] (-) TimerEvent: {}
+[16.193603] (-) TimerEvent: {}
+[16.294222] (-) TimerEvent: {}
+[16.394847] (-) TimerEvent: {}
+[16.495460] (-) TimerEvent: {}
+[16.596064] (-) TimerEvent: {}
+[16.696668] (-) TimerEvent: {}
+[16.797262] (-) TimerEvent: {}
+[16.897868] (-) TimerEvent: {}
+[16.998467] (-) TimerEvent: {}
+[17.099078] (-) TimerEvent: {}
+[17.199717] (-) TimerEvent: {}
+[17.300350] (-) TimerEvent: {}
+[17.400950] (-) TimerEvent: {}
+[17.501550] (-) TimerEvent: {}
+[17.602127] (-) TimerEvent: {}
+[17.702693] (-) TimerEvent: {}
+[17.803270] (-) TimerEvent: {}
+[17.903838] (-) TimerEvent: {}
+[18.004418] (-) TimerEvent: {}
+[18.105006] (-) TimerEvent: {}
+[18.205609] (-) TimerEvent: {}
+[18.306189] (-) TimerEvent: {}
+[18.406778] (-) TimerEvent: {}
+[18.507373] (-) TimerEvent: {}
+[18.607948] (-) TimerEvent: {}
+[18.708517] (-) TimerEvent: {}
+[18.809087] (-) TimerEvent: {}
+[18.909676] (-) TimerEvent: {}
+[19.010240] (-) TimerEvent: {}
+[19.110823] (-) TimerEvent: {}
+[19.211404] (-) TimerEvent: {}
+[19.311991] (-) TimerEvent: {}
+[19.412565] (-) TimerEvent: {}
+[19.513150] (-) TimerEvent: {}
+[19.613742] (-) TimerEvent: {}
+[19.714300] (-) TimerEvent: {}
+[19.814872] (-) TimerEvent: {}
+[19.915445] (-) TimerEvent: {}
+[20.016029] (-) TimerEvent: {}
+[20.116622] (-) TimerEvent: {}
+[20.217203] (-) TimerEvent: {}
+[20.317798] (-) TimerEvent: {}
+[20.418394] (-) TimerEvent: {}
+[20.518984] (-) TimerEvent: {}
+[20.619558] (-) TimerEvent: {}
+[20.720125] (-) TimerEvent: {}
+[20.820694] (-) TimerEvent: {}
+[20.921261] (-) TimerEvent: {}
+[21.021850] (-) TimerEvent: {}
+[21.122427] (-) TimerEvent: {}
+[21.223001] (-) TimerEvent: {}
+[21.323592] (-) TimerEvent: {}
+[21.424161] (-) TimerEvent: {}
+[21.524732] (-) TimerEvent: {}
+[21.625327] (-) TimerEvent: {}
+[21.725891] (-) TimerEvent: {}
+[21.826450] (-) TimerEvent: {}
+[21.927027] (-) TimerEvent: {}
+[22.027611] (-) TimerEvent: {}
+[22.128184] (-) TimerEvent: {}
+[22.228755] (-) TimerEvent: {}
+[22.329306] (-) TimerEvent: {}
+[22.429742] (-) TimerEvent: {}
+[22.530149] (-) TimerEvent: {}
+[22.630541] (-) TimerEvent: {}
+[22.730951] (-) TimerEvent: {}
+[22.831435] (-) TimerEvent: {}
+[22.931887] (-) TimerEvent: {}
+[23.032382] (-) TimerEvent: {}
+[23.132829] (-) TimerEvent: {}
+[23.233397] (-) TimerEvent: {}
+[23.333933] (-) TimerEvent: {}
+[23.434373] (-) TimerEvent: {}
+[23.534791] (-) TimerEvent: {}
+[23.635201] (-) TimerEvent: {}
+[23.735660] (-) TimerEvent: {}
+[23.836069] (-) TimerEvent: {}
+[23.936520] (-) TimerEvent: {}
+[24.037034] (-) TimerEvent: {}
+[24.137498] (-) TimerEvent: {}
+[24.237950] (-) TimerEvent: {}
+[24.338532] (-) TimerEvent: {}
+[24.439144] (-) TimerEvent: {}
+[24.539902] (-) TimerEvent: {}
+[24.640653] (-) TimerEvent: {}
+[24.741405] (-) TimerEvent: {}
+[24.842140] (-) TimerEvent: {}
+[24.942898] (-) TimerEvent: {}
+[25.043674] (-) TimerEvent: {}
+[25.144443] (-) TimerEvent: {}
+[25.245200] (-) TimerEvent: {}
+[25.345949] (-) TimerEvent: {}
+[25.446716] (-) TimerEvent: {}
+[25.547481] (-) TimerEvent: {}
+[25.648250] (-) TimerEvent: {}
+[25.749014] (-) TimerEvent: {}
+[25.849789] (-) TimerEvent: {}
+[25.950532] (-) TimerEvent: {}
+[26.051296] (-) TimerEvent: {}
+[26.152050] (-) TimerEvent: {}
+[26.252819] (-) TimerEvent: {}
+[26.353608] (-) TimerEvent: {}
+[26.454323] (-) TimerEvent: {}
+[26.554994] (-) TimerEvent: {}
+[26.655671] (-) TimerEvent: {}
+[26.756331] (-) TimerEvent: {}
+[26.856999] (-) TimerEvent: {}
+[26.957711] (-) TimerEvent: {}
+[26.985141] (zlac8015d_serial) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable Motorctl\x1b[0m\n'}
+[27.057897] (-) TimerEvent: {}
+[27.158617] (-) TimerEvent: {}
+[27.259295] (-) TimerEvent: {}
+[27.359963] (-) TimerEvent: {}
+[27.460640] (-) TimerEvent: {}
+[27.561372] (-) TimerEvent: {}
+[27.662062] (-) TimerEvent: {}
+[27.762748] (-) TimerEvent: {}
+[27.863409] (-) TimerEvent: {}
+[27.964066] (-) TimerEvent: {}
+[28.064733] (-) TimerEvent: {}
+[28.165435] (-) TimerEvent: {}
+[28.266116] (-) TimerEvent: {}
+[28.304243] (zlac8015d_serial) StdoutLine: {'line': b'[ 92%] Built target Motorctl\n'}
+[28.306814] (zlac8015d_serial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[28.311346] (zlac8015d_serial) CommandEnded: {'returncode': 2}
+[28.337688] (zlac8015d_serial) JobEnded: {'identifier': 'zlac8015d_serial', 'rc': 2}
+[28.349069] (motorcar_bringup) JobSkipped: {'identifier': 'motorcar_bringup'}
+[28.349314] (-) EventReactorShutdown: {}

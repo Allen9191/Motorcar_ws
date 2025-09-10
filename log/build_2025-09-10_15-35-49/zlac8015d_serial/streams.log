@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target zlac8015d[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target SimpleControl[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[0.134s] [ 15%] Built target zlac8015d
+[0.137s] [ 46%] Built target example
+[0.138s] [ 53%] Built target Motorrcv
+[0.142s] [ 69%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[0.142s] [ 84%] Built target SimpleControl
+[4.226s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[4.226s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmF[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmFR[m[K’?
+[4.226s]   206 |       [01;31m[KrpmF[m[K = motorF_.get_rpm();
+[4.227s]       |       [01;31m[K^~~~[m[K
+[4.227s]       |       [32m[KrpmFR[m[K
+[4.237s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:218:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmR[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmRR[m[K’?
+[4.238s]   218 |       [01;31m[KrpmR[m[K = motorR_.get_rpm();
+[4.238s]       |       [01;31m[K^~~~[m[K
+[4.238s]       |       [32m[KrpmRR[m[K
+[13.081s] gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+[13.081s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Error 2
+[13.082s] gmake: *** [Makefile:146: all] Error 2
+[13.090s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12

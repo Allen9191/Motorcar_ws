@@ -1,0 +1,92 @@
+[0.030s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12
+[0.082s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.475s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.478s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.696s] -- Found serial: 1.2.1 (/home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake)
+[0.698s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.716s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.741s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.766s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[0.781s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.914s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.935s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.937s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.937s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.068s] -- Configuring done
+[1.134s] -- Generating done
+[1.151s] -- Build files have been written to: /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target zlac8015d[0m
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target SimpleControl[0m
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[1.233s] [ 15%] Built target zlac8015d
+[1.233s] [ 38%] Built target example
+[1.242s] [ 46%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[1.242s] [ 69%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[1.242s] [ 76%] Built target SimpleControl
+[5.794s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In constructor ‘[01m[KMotorreceiv::Motorreceiv()[m[K’:
+[5.794s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broad_[m[K’ was not declared in this scope
+[5.795s]    34 |     [01;31m[Ktf_broad_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+[5.795s]       |     [01;31m[K^~~~~~~~~[m[K
+[5.862s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.863s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[5.863s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[5.863s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longFL[m[K’ was not declared in this scope
+[5.863s]   228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",[01;31m[Kpath_longFL[m[K, path_longFR, path_longRL, path_longRR);
+[5.863s]       |                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.873s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longFR[m[K’ was not declared in this scope
+[5.873s]   228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, [01;31m[Kpath_longFR[m[K, path_longRL, path_longRR);
+[5.874s]       |                                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[5.884s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longRL[m[K’ was not declared in this scope
+[5.884s]   228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, [01;31m[Kpath_longRL[m[K, path_longRR);
+[5.884s]       |                                                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[5.894s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:129:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longRR[m[K’ was not declared in this scope
+[5.894s]   228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, path_longRL, [01;31m[Kpath_longRR[m[K);
+[5.894s]       |                                                                                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.905s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:287:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodom[m[K’?
+[5.905s]   287 |   auto &Pc = [01;31m[Kodom[m[K.pose.covariance;
+[5.905s]       |              [01;31m[K^~~~[m[K
+[5.905s]       |              [32m[Kmodom[m[K
+[5.915s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.916s]                  from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[5.917s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+[5.917s]   319 |               [01;31m[Kv[m[K, wz, x_AMR, y_AMR, theta_AMR);
+[5.917s]       |               [01;31m[K^[m[K
+[5.923s] [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kwz[m[K’ was not declared in this scope
+[5.923s]   319 |               v, [01;31m[Kwz[m[K, x_AMR, y_AMR, theta_AMR);
+[5.923s]       |                  [01;31m[K^~[m[K
+[12.130s] gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+[12.131s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+[12.131s] gmake[1]: *** Waiting for unfinished jobs....
+[25.450s] [ 84%] [32m[1mLinking CXX executable Motorctl[0m
+[26.769s] [ 92%] Built target Motorctl
+[26.771s] gmake: *** [Makefile:146: all] Error 2
+[26.777s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial' returned '2': AMENT_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/MotorcarV1.1_ws/install/joy_control:/home/nvidia/MotorcarV1.1_ws/install/serial:/home/nvidia/piek-src/install/motor_control:/home/nvidia/piek-src/install/willy_interfaces:/home/nvidia/piek-src/install/serial:/home/nvidia/piek-src/install/joy_control:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/MotorcarV1.1_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/MotorcarV1.1_ws/install/keyboard_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/zlac8015d_serial -- -j12 -l12

@@ -1,0 +1,55 @@
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In constructor ‘[01m[KMotorreceiv::Motorreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broad_[m[K’ was not declared in this scope
+   34 |     [01;31m[Ktf_broad_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longFL[m[K’ was not declared in this scope
+  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",[01;31m[Kpath_longFL[m[K, path_longFR, path_longRL, path_longRR);
+      |                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longFR[m[K’ was not declared in this scope
+  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, [01;31m[Kpath_longFR[m[K, path_longRL, path_longRR);
+      |                                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longRL[m[K’ was not declared in this scope
+  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, [01;31m[Kpath_longRL[m[K, path_longRR);
+      |                                                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:228:129:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_longRR[m[K’ was not declared in this scope
+  228 |     RCLCPP_INFO(this->get_logger(),"Distance FL=%.3f m, RL=%.3f m, FR=%.3f m, RR=%.3f m",path_longFL, path_longFR, path_longRL, [01;31m[Kpath_longRR[m[K);
+      |                                                                                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:287:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodom[m[K’?
+  287 |   auto &Pc = [01;31m[Kodom[m[K.pose.covariance;
+      |              [01;31m[K^~~~[m[K
+      |              [32m[Kmodom[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:6[m[K:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+  319 |               [01;31m[Kv[m[K, wz, x_AMR, y_AMR, theta_AMR);
+      |               [01;31m[K^[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:319:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kwz[m[K’ was not declared in this scope
+  319 |               v, [01;31m[Kwz[m[K, x_AMR, y_AMR, theta_AMR);
+      |                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

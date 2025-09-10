@@ -1,8 +1,8 @@
-# Install script for directory: /home/nvidia/Motorcar-NEW_ws/src/joy_control
+# Install script for directory: /home/nvidia/MotorcarV1.1_ws/src/joy_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nvidia/Motorcar-NEW_ws/install/joy_control")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/MotorcarV1.1_ws/install/joy_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy_control/joy_control"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy_control" TYPE EXECUTABLE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/joy_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy_control" TYPE EXECUTABLE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/joy_control")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy_control/joy_control" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy_control/joy_control")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control/environment" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control/environment" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control/environment" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control/environment" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/packages/joy_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_index/share/ament_index/resource_index/packages/joy_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control/cmake" TYPE FILE FILES
-    "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_core/joy_controlConfig.cmake"
-    "/home/nvidia/Motorcar-NEW_ws/build/joy_control/ament_cmake_core/joy_controlConfig-version.cmake"
+    "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_core/joy_controlConfig.cmake"
+    "/home/nvidia/MotorcarV1.1_ws/build/joy_control/ament_cmake_core/joy_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/Motorcar-NEW_ws/src/joy_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_control" TYPE FILE FILES "/home/nvidia/MotorcarV1.1_ws/src/joy_control/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nvidia/Motorcar-NEW_ws/build/joy_control/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nvidia/MotorcarV1.1_ws/build/joy_control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

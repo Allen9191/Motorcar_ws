@@ -1,0 +1,14 @@
+[ 23%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/zlac8015d.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/zlac8015d.cpp.o[0m
+[ 61%] Built target Motorrcv
+[ 69%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m
+[ 84%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[ 84%] [32m[1mLinking CXX executable example[0m
+[ 84%] Built target zlac8015d
+[ 84%] Built target example
+[ 92%] [32m[1mLinking CXX executable SimpleControl[0m
+[ 92%] Built target SimpleControl

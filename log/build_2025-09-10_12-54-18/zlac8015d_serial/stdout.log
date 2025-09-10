@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target zlac8015d[0m
+[35m[1mConsolidate compiler generated dependencies of target example[0m
+[35m[1mConsolidate compiler generated dependencies of target SimpleControl[0m
+[35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[ 15%] Built target zlac8015d
+[ 38%] Built target example
+[ 53%] Built target Motorrcv
+[ 61%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m

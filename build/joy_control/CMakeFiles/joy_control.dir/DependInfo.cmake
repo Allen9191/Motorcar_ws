@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nvidia/Motorcar-NEW_ws/src/joy_control/src/Modectl.cpp" "CMakeFiles/joy_control.dir/src/Modectl.cpp.o" "gcc" "CMakeFiles/joy_control.dir/src/Modectl.cpp.o.d"
+  "/home/nvidia/MotorcarV1.1_ws/src/joy_control/src/Modectl.cpp" "CMakeFiles/joy_control.dir/src/Modectl.cpp.o" "gcc" "CMakeFiles/joy_control.dir/src/Modectl.cpp.o.d"
   )
 
 # Targets to which this target links.

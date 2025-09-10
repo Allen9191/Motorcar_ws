@@ -54,8 +54,8 @@ endif()
 add_library(zlac8015d_serial::zlac8015d STATIC IMPORTED)
 
 set_target_properties(zlac8015d_serial::zlac8015d PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/nvidia/Motorcar-NEW_ws/install/serial/include;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "rclcpp::rclcpp;/home/nvidia/Motorcar-NEW_ws/install/serial/lib/libserial.a"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/nvidia/MotorcarV1.1_ws/install/serial/include;${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "rclcpp::rclcpp;/home/nvidia/MotorcarV1.1_ws/install/serial/lib/libserial.a"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

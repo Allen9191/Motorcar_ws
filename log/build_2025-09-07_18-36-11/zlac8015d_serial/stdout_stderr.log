@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[ 30%] Built target zlac8015d
+[ 38%] Built target example
+[ 61%] Built target SimpleControl
+[ 92%] Built target Motorctl
+[ 92%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:310:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodom[m[K’?
+  310 |   tf_msg.transform.rotation = [01;31m[Kodom[m[K.pose.pose.orientation;
+      |                               [01;31m[K^~~~[m[K
+      |                               [32m[Kmodom[m[K
+gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

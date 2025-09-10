@@ -1,0 +1,25 @@
+[0.483s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/amr_description -- -j12 -l12
+[0.550s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/amr_description -- -j12 -l12
+[0.553s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/amr_description
+[0.568s] -- Install configuration: ""
+[0.568s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf
+[0.568s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf/basestructure_link.urdf.xacro
+[0.568s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/urdf/structure_link.urdf.xacro
+[0.568s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/launch
+[0.568s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/launch/display.launch.py
+[0.569s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[0.569s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[0.569s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/path.sh
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/environment/path.dsv
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.bash
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.sh
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.zsh
+[0.570s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/local_setup.dsv
+[0.570s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/package.dsv
+[0.571s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[0.571s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[0.571s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[0.571s] -- Up-to-date: /home/nvidia/MotorcarV1.1_ws/install/amr_description/share/amr_description/package.xml
+[0.575s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/amr_description

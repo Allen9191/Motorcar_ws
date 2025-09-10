@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target Motorctl[0m
+[35m[1mConsolidate compiler generated dependencies of target Motorrcv[0m
+[ 30%] Built target zlac8015d
+[ 38%] Built target example
+[ 61%] Built target SimpleControl
+[ 69%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o[0m
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:120:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |     int [01;35m[Kprev_mode[m[K = -1;
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:333:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  333 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:27:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   27 | class Motorreceiv : public rclcpp::Node [01;36m[K{[m[K
+      |                                         [01;36m[K^[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In constructor ‘[01m[KMotorreceiv::Motorreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[KModom_pub_[m[K’ was not declared in this scope
+   33 |     [01;31m[KModom_pub_[m[K = this->create_publisher<nav_msgs::msg::Odometry>("/odom/Motor", rclcpp::QoS(50));
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broad_[m[K’ was not declared in this scope
+   34 |     [01;31m[Ktf_broad_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetradpsec_sub_[m[K’ was not declared in this scope
+   44 |     [01;31m[Ksetradpsec_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetposition_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_positionFL[m[K’?
+   47 |     [01;31m[Kgetposition_sub_[m[K = this->create_subscription<std_msgs::msg::Int32MultiArray>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kget_positionFL[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgettorque_sub_[m[K’ was not declared in this scope
+   50 |     [01;31m[Kgettorque_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetradpsec_sub_[m[K’ was not declared in this scope
+   53 |     [01;31m[Kgetradpsec_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[KReceiv_[m[K’ was not declared in this scope
+   58 |     [01;31m[KReceiv_[m[K = this-> create_wall_timer(200ms,std::bind(&Motorreceiv::ZLACreceiv,this));
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:295:3:[m[K [01;31m[Kerror: [m[K‘[01m[KModom_pub_[m[K’ was not declared in this scope
+  295 |   [01;31m[KModom_pub_[m[K->publish(modom);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:307:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broad_[m[K’ was not declared in this scope
+  307 |   [01;31m[Ktf_broad_[m[K->sendTransform(tf_msg);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K At global scope:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:333:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  333 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Motorrcv.dir/build.make:76: CMakeFiles/Motorrcv.dir/src/Motorrcv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/Motorrcv.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 84%] [32m[1mLinking CXX executable Motorctl[0m
+[ 92%] Built target Motorctl
+gmake: *** [Makefile:146: all] Error 2

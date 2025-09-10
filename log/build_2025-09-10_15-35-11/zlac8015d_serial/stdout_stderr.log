@@ -1,0 +1,63 @@
+[ 23%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/zlac8015d.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/Motorctl.dir/src/zlac8015d.cpp.o[0m
+[ 61%] Built target Motorrcv
+[ 69%] [32mBuilding CXX object CMakeFiles/SimpleControl.dir/src/SimpleControl.cpp.o[0m
+[ 84%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[ 84%] [32m[1mLinking CXX executable example[0m
+[ 84%] Built target zlac8015d
+[ 84%] Built target example
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:[m[K In member function ‘[01m[Kvoid ModeToZlac::ZLACoutput()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmF[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmFR[m[K’?
+  206 |       [01;31m[KrpmF[m[K = motorF_.get_rpm();
+      |       [01;31m[K^~~~[m[K
+      |       [32m[KrpmFR[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:209:94:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KtqF[m[K’
+  209 |       RCLCPP_INFO(get_logger(), "FrontCtl: pos=%d rpmFL=%.1f rpmFR=%.1f tq=%.1f", posF, rpmF [01;31m[KtqF[m[K);
+      |                                                                                              [01;31m[K^~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:209:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  209 |       [01;36m[KRCLCPP_INFO[m[K(get_logger(), "FrontCtl: pos=%d rpmFL=%.1f rpmFR=%.1f tq=%.1f", posF, rpmF tqF);
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:218:7:[m[K [01;31m[Kerror: [m[K‘[01m[KrpmR[m[K’ was not declared in this scope; did you mean ‘[01m[KrpmRR[m[K’?
+  218 |       [01;31m[KrpmR[m[K = motorR_.get_rpm();
+      |       [01;31m[K^~~~[m[K
+      |       [32m[KrpmRR[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:7[m[K:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:221:94:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KtqR[m[K’
+  221 |       RCLCPP_INFO(get_logger(), "RearCtl:  pos=%d rpmRL=%.1f rpmRR=%.1f tq=%.1f", posR, rpmR [01;31m[KtqR[m[K);
+      |                                                                                              [01;31m[K^~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorctl.cpp:221:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  221 |       [01;36m[KRCLCPP_INFO[m[K(get_logger(), "RearCtl:  pos=%d rpmRL=%.1f rpmRR=%.1f tq=%.1f", posR, rpmR tqR);
+      |       [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Motorctl.dir/build.make:76: CMakeFiles/Motorctl.dir/src/Motorctl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/Motorctl.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 92%] [32m[1mLinking CXX executable SimpleControl[0m
+[ 92%] Built target SimpleControl
+gmake: *** [Makefile:146: all] Error 2

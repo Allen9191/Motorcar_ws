@@ -1,0 +1,51 @@
+[0.032s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake /home/nvidia/MotorcarV1.1_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/MotorcarV1.1_ws/install/serial
+[0.447s] -- The C compiler identification is GNU 11.4.0
+[0.447s] -- The CXX compiler identification is GNU 11.4.0
+[0.448s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.563s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.573s] -- Detecting CXX compile features - done
+[0.576s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.143s] -- Configuring done
+[1.152s] -- Generating done
+[1.156s] -- Build files have been written to: /home/nvidia/MotorcarV1.1_ws/build/serial
+[1.166s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake /home/nvidia/MotorcarV1.1_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/MotorcarV1.1_ws/install/serial
+[1.170s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/serial -- -j12 -l12
+[1.258s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.259s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.259s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.139s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[2.217s] [100%] Built target serial
+[2.243s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/MotorcarV1.1_ws/build/serial -- -j12 -l12
+[2.247s] Invoking command in '/home/nvidia/MotorcarV1.1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/serial
+[2.262s] -- Install configuration: ""
+[2.263s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/library_path.sh
+[2.264s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/library_path.dsv
+[2.264s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/lib/libserial.a
+[2.265s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/serial.h
+[2.265s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/include/serial/v8stdint.h
+[2.266s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.266s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.266s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.266s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.267s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/path.sh
+[2.267s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/environment/path.dsv
+[2.267s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.bash
+[2.268s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.sh
+[2.268s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.zsh
+[2.268s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/local_setup.dsv
+[2.268s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/package.dsv
+[2.268s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/ament_index/resource_index/packages/serial
+[2.269s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.269s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.269s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[2.269s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.270s] -- Installing: /home/nvidia/MotorcarV1.1_ws/install/serial/share/serial/package.xml
+[2.275s] Invoked command in '/home/nvidia/MotorcarV1.1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/piek-src/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/MotorcarV1.1_ws/build/serial

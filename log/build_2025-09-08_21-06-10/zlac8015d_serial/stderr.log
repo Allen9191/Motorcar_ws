@@ -1,0 +1,19 @@
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:[m[K In member function ‘[01m[Kvoid Motorreceiv::ZLACreceiv()[m[K’:
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:174:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KVset_log[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |     double [01;35m[KVset_log[m[K = (Vset_WL_avg + Vset_WR_avg)/2;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:175:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyawset_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |     double [01;35m[Kyawset_rate[m[K = (Vset_WL_avg - Vset_WR_avg)/motor_ctl::Kinematics::W;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:194:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KWerr_FL[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  194 |     double [01;35m[KWerr_FL[m[K = set_radpsecFL - get_radpsecFL;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:195:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KWerr_FR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  195 |     double [01;35m[KWerr_FR[m[K = set_radpsecFR - get_radpsecFR;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:196:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KWerr_RL[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  196 |     double [01;35m[KWerr_RL[m[K = set_radpsecRL - get_radpsecRL;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/nvidia/MotorcarV1.1_ws/src/ROS2_ZLAC8015D_serial/src/Motorrcv.cpp:197:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KWerr_RR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  197 |     double [01;35m[KWerr_RR[m[K = set_radpsecRR - get_radpsecRR;
+      |            [01;35m[K^~~~~~~[m[K
