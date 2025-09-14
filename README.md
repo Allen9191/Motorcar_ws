@@ -33,6 +33,9 @@ joystick connect port:
 >>jstest-gtk
 
 >>lsusb
+
+Open I/O port
+>> sudo chmod a+rw /dev/ttyUSB0 /dev/ttyUSB1
     
 ### Test alone
 cd Motorcar_ws/
