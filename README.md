@@ -16,6 +16,7 @@ At aarch64 snap version:
 sudo apt-get install chromium-browser
 Install joystick test
 >[測試搖桿工具](https://shengyu7697.github.io/ubuntu-joystick-tool/)
+
 Joysitck Driver:
 >[Jetpack 6 Joystick Detection Issue on Nvidia Jetson Orin Nano Dev Board](https://nvidia-jetson.piveral.com/jetson-orin-nano/jetpack-6-joystick-detection-issue-on-nvidia-jetson-orin-nano-dev-board/)
 
